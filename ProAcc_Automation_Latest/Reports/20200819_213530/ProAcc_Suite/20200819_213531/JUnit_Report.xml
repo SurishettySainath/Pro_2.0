@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ProAcc_Suite" time="203.917" tests="1" failures="0" errors="0">
+   <testsuite name="ProAcc_Suite" tests="1" failures="0" errors="0" time="203.917" timestamp="2020-08-19 21:35:36" hostname="Group10 - Group10-PC" id="Test Suites/ProAcc_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200819_213530\\ProAcc_Suite\\20200819_213531"/>
+         <property name="logFiles" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200819_213530\\ProAcc_Suite\\20200819_213531\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Group10 - Group10-PC"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="7.6.1.205"/>
+         <property name="browser" value="Chrome 84.0.4147.125"/>
+         <property name="hostAddress" value="192.168.43.206"/>
+         <property name="sessionId" value="896d4e41fa054769d025e5e8601b63b7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Tc_PM/TC_ResourceAllocation_PreConversion_PM" time="201.279" classname="Test Cases/Tc_PM/TC_ResourceAllocation_PreConversion_PM" status="PASSED">
+         <system-out><![CDATA[2020-08-19 21:35:37 - [TEST_CASE][PASSED] - Test Cases/Tc_PM/TC_ResourceAllocation_PreConversion_PM: Test Cases/Tc_PM/TC_ResourceAllocation_PreConversion_PM
+
+2020-08-19 21:35:37 - [TEST_STEP][PASSED] - runWithCucumberRunner(pro_acc_test_runner.ResourceAllocation_PreConversion_PM_Runner): Run with 'pro_acc_test_runner.ResourceAllocation_PreConversion_PM_Runner' was passed
+
+2020-08-19 21:35:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-19 21:35:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-19 21:35:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-19 21:35:44 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-19 21:35:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-19 21:36:05 - [MESSAGE][PASSED] - Navigate to 'http://123.176.34.15:4041/ProAccQA' successfully
+
+2020-08-19 21:36:06 - [MESSAGE][PASSED] - Text 'Tin_PM' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Username'
+
+2020-08-19 21:36:07 - [MESSAGE][PASSED] - Text 'a12345@' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Password'
+
+2020-08-19 21:36:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Login/button_Login' is clicked on
+
+2020-08-19 21:37:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 21:37:01 - [MESSAGE][PASSED] - Text 'Dashboard' is present on page 
+
+2020-08-19 21:37:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 21:37:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Pre-Conversion/Pre-Conversion_PM' is clicked on
+
+2020-08-19 21:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Pre-Conversion/ResourceAllocation_Pre-Conversion_PM' is clicked on
+
+2020-08-19 21:37:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:37:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_SelectProject' is clicked on
+
+2020-08-19 21:37:19 - [MESSAGE][PASSED] - All options with label 'Tin Pilot Phase Test' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_SelectProject'  using regular expression
+
+2020-08-19 21:37:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:37:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_SelectInstance' is clicked on
+
+2020-08-19 21:37:22 - [MESSAGE][PASSED] - All options with label 'T01' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_SelectInstance'  using regular expression
+
+2020-08-19 21:37:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:37:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:37:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 21:37:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:37:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-08-19 21:37:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:37:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-19 21:37:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task' successfully
+
+2020-08-19 21:37:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:37:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task' is clicked on
+
+2020-08-19 21:37:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask' is clicked on
+
+2020-08-19 21:37:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:37:39 - [MESSAGE][PASSED] - All options with label 'john_consultant' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask'  using regular expression
+
+2020-08-19 21:37:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Submit' is clicked on
+
+2020-08-19 21:37:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Yes' is clicked on
+
+2020-08-19 21:37:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-19 21:37:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:37:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-08-19 21:37:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:37:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-19 21:37:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task' successfully
+
+2020-08-19 21:37:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:37:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task' is clicked on
+
+2020-08-19 21:37:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:37:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask' is clicked on
+
+2020-08-19 21:37:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:37:56 - [MESSAGE][PASSED] - All options with label 'john_consultant' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask'  using regular expression
+
+2020-08-19 21:37:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Submit' is clicked on
+
+2020-08-19 21:37:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Yes' is clicked on
+
+2020-08-19 21:38:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-19 21:38:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:38:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-08-19 21:38:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:38:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-19 21:38:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task' successfully
+
+2020-08-19 21:38:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task' is clicked on
+
+2020-08-19 21:38:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:38:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask' is clicked on
+
+2020-08-19 21:38:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:38:14 - [MESSAGE][PASSED] - All options with label 'john_consultant' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask'  using regular expression
+
+2020-08-19 21:38:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Submit' is clicked on
+
+2020-08-19 21:38:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:38:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Yes' is clicked on
+
+2020-08-19 21:38:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-19 21:38:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:38:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-08-19 21:38:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:38:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-19 21:38:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task' successfully
+
+2020-08-19 21:38:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task' is clicked on
+
+2020-08-19 21:38:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask' is clicked on
+
+2020-08-19 21:38:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:38:31 - [MESSAGE][PASSED] - All options with label 'john_consultant' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask'  using regular expression
+
+2020-08-19 21:38:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:38:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Submit' is clicked on
+
+2020-08-19 21:38:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Yes' is clicked on
+
+2020-08-19 21:38:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-19 21:38:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:38:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-08-19 21:38:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:38:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-19 21:38:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task' successfully
+
+2020-08-19 21:38:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:38:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task' is clicked on
+
+2020-08-19 21:38:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:38:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask' is clicked on
+
+2020-08-19 21:38:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:38:48 - [MESSAGE][PASSED] - All options with label 'john_consultant' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask'  using regular expression
+
+2020-08-19 21:38:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Submit' is clicked on
+
+2020-08-19 21:38:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:38:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Yes' is clicked on
+
+2020-08-19 21:38:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-19 21:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Logout/User_Click' is clicked on
+
+2020-08-19 21:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Logout/Logout' is clicked on
+
+2020-08-19 21:38:58 - [MESSAGE][PASSED] - Run with 'pro_acc_test_runner.ResourceAllocation_PreConversion_PM_Runner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-19 21:35:36 - [TEST_SUITE][PASSED] - ProAcc_Suite: Test Cases/Tc_PM/TC_ResourceAllocation_PreConversion_PM]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

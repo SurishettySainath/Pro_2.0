@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pro_Acc_End_to_End_Suite" time="153.377" tests="1" failures="0" errors="0">
+   <testsuite name="Pro_Acc_End_to_End_Suite" tests="1" failures="0" errors="0" time="153.377" timestamp="2020-08-19 20:02:58" hostname="Group10 - Group10-PC" id="Test Suites/Pro_Acc_End_to_End_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200819_200253\\Pro_Acc_End_to_End_Suite\\20200819_200253"/>
+         <property name="logFiles" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200819_200253\\Pro_Acc_End_to_End_Suite\\20200819_200253\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200819_200253\\Pro_Acc_End_to_End_Suite\\20200819_200253\\1597847713893.png, C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\screenshots\\Wed_Aug_19_20_05_14_IST_2020.png, C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\screenshots\\Wed_Aug_19_20_05_29_IST_2020.png"/>
+         <property name="hostName" value="Group10 - Group10-PC"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="7.6.1.205"/>
+         <property name="browser" value="Chrome 84.0.4147.125"/>
+         <property name="hostAddress" value="192.168.43.206"/>
+         <property name="sessionId" value="111bee0fa647c2171f0b24049c9e99e4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Tc_Consultant/TC_AssessmentMonitorforConsultant" time="150.745" classname="Test Cases/Tc_Consultant/TC_AssessmentMonitorforConsultant" status="PASSED">
+         <system-out><![CDATA[2020-08-19 20:02:59 - [TEST_CASE][PASSED] - Test Cases/Tc_Consultant/TC_AssessmentMonitorforConsultant: Test Cases/Tc_Consultant/TC_AssessmentMonitorforConsultant
+
+2020-08-19 20:03:00 - [TEST_STEP][PASSED] - runWithCucumberRunner(testRunner.AssessmentMonitorforConsultant_Runner): Run with 'testRunner.AssessmentMonitorforConsultant_Runner' was passed
+
+2020-08-19 20:03:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-19 20:03:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-19 20:03:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-19 20:03:08 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-19 20:03:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-19 20:03:17 - [MESSAGE][PASSED] - Navigate to 'http://123.176.34.15:4041/ProAccQA' successfully
+
+2020-08-19 20:03:18 - [MESSAGE][PASSED] - Text 'john_consultant' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Username'
+
+2020-08-19 20:03:19 - [MESSAGE][PASSED] - Text 'a12345@' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Password'
+
+2020-08-19 20:03:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 20:03:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Login/button_Login' is clicked on
+
+2020-08-19 20:04:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 20:04:03 - [MESSAGE][PASSED] - Text 'Dashboard' is present on page 
+
+2020-08-19 20:04:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 20:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/Select_Assessment' is clicked on
+
+2020-08-19 20:04:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/a_Assessment Monitor' is clicked on
+
+2020-08-19 20:04:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-19 20:04:24 - [MESSAGE][PASSED] - All options with label 'Tin Test' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/select_-SelectCustomerName'  using regular expression
+
+2020-08-19 20:04:25 - [MESSAGE][PASSED] - All options with label 'Tin Pilot Phase Test' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/select_-SelectProjectName'  using regular expression
+
+2020-08-19 20:04:26 - [MESSAGE][PASSED] - All options with label 'T01' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/select_-SelectInstanceName'  using regular expression
+
+2020-08-19 20:04:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 20:04:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pro_Acc_AssessmentMonitorforConsultant/Page_Assessment Monitor/Edit_Button' successfully
+
+2020-08-19 20:04:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 20:04:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-19 20:04:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-08-19 20:04:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-19 20:04:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 20:04:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 20:04:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 20:04:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 20:04:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 20:05:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 20:05:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-19 20:05:14 - [MESSAGE][FAILED] - Unable to click on object '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at proAcc_Stepdef.AssessmentMonitor_Consultant.user_has_to_edit_task_for_consultant(AssessmentMonitor_Consultant.groovy:214)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:430)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:427)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:527)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_AssessmentMonitorforConsultant.run(TC_AssessmentMonitorforConsultant:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597847573528.run(TempTestSuite1597847573528.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <tr role="row" id="3" tabindex="-1" class="jqgrow ui-row-ltr">...</tr> is not clickable at point (893, 333). Other element would receive the click: <td role="gridcell" style="text-align:center;" title="..." aria-describedby="jqGrid_Planed__St_Date">19/08/2020</td>
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GROUP10-PC', ip: '192.168.43.206', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Group10\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56530}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 111bee0fa647c2171f0b24049c9e99e4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at proAcc_Stepdef.AssessmentMonitor_Consultant.user_has_to_edit_task_for_consultant(AssessmentMonitor_Consultant.groovy:214)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:430)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:427)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:527)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Script1592242094487.run(Script1592242094487.groovy:20)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200819_200253\\Pro_Acc_End_to_End_Suite\\20200819_200253\\1597847713893.png]]
+
+2020-08-19 20:05:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\screenshots\\Wed_Aug_19_20_05_14_IST_2020.png]]
+
+2020-08-19 20:05:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 20:05:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="NXReportButton"]
+'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-08-19 20:05:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\screenshots\\Wed_Aug_19_20_05_29_IST_2020.png]]
+
+2020-08-19 20:05:30 - [MESSAGE][PASSED] - Run with 'testRunner.AssessmentMonitorforConsultant_Runner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-19 20:02:58 - [TEST_SUITE][PASSED] - Pro_Acc_End_to_End_Suite: Test Cases/Tc_Consultant/TC_AssessmentMonitorforConsultant]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

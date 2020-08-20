@@ -1,0 +1,106 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 21,
+        "name": "Creating New Instance",
+        "description": "",
+        "id": "create-instance;creating-new-instance;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 830287645,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on create instance page",
+            "match": {
+              "location": "Addinstancetoproject.user_is_on_project_instance_configuration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1502853953,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to enter instance nameT01",
+            "match": {
+              "arguments": [
+                {
+                  "val": "T01",
+                  "offset": 31
+                }
+              ],
+              "location": "Addinstancetoproject.user_has_to_enter_instance_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4416721294,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to select project from dropdownTin Pilot Phase Test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tin Pilot Phase Test",
+                  "offset": 40
+                }
+              ],
+              "location": "Addinstancetoproject.user_has_to_select_project_from_dropdown(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3403840910,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to click on create button for create instance",
+            "match": {
+              "location": "Addinstancetoproject.user_click_on_create_button_and_navigate_to_view_project_list_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10039021797,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User can search for created instance in listT01",
+            "match": {
+              "arguments": [
+                {
+                  "val": "T01",
+                  "offset": 44
+                }
+              ],
+              "location": "Addinstancetoproject.user_can_search_for_instance(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Create Instance",
+    "description": "",
+    "id": "create-instance",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Configuration/CreateInstance.feature",
+    "tags": []
+  }
+]

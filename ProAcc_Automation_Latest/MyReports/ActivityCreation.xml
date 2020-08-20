@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="113.020459">
+<testcase classname="Activity Creation" name="Creating Activity" time="28.397979">
+<system-out><![CDATA[Given User is on create activity page.......................................passed
+When User has to fill the fields like TaskAlexa Custom Code Assessment,ApplicationAreaTechnical - ABAP,PhaseAssessment,RoleFunctional,BuildingBlockApplication Overview,Est Hrs10:43.passed
+And User has to click on create button for create activity and need to select task.passed
+Then User can search for created activity in listAlexa Custom Code Assessment.passed
+]]></system-out>
+</testcase>
+<testcase classname="Activity Creation" name="Creating Activity 2" time="28.276422">
+<system-out><![CDATA[Given User is on create activity page.......................................passed
+When User has to fill the fields like TaskAlexa Custom Code Pre_Conversion,ApplicationAreaFunctional / Technical,PhasePre Conversion,RoleFunctional,BuildingBlockData Consistency Verification,Est Hrs11:34.passed
+And User has to click on create button for create activity and need to select task.passed
+Then User can search for created activity in listAlexa Custom Code Pre_Conversion.passed
+]]></system-out>
+</testcase>
+<testcase classname="Activity Creation" name="Creating Activity 3" time="28.217637">
+<system-out><![CDATA[Given User is on create activity page.......................................passed
+When User has to fill the fields like TaskAlexa Custom Code Conversion,ApplicationAreaTechnical - Security,PhaseConversion,RoleBASIS,BuildingBlockCustom Adoption,Est Hrs12:34.passed
+And User has to click on create button for create activity and need to select task.passed
+Then User can search for created activity in listAlexa Custom Code Conversion.passed
+]]></system-out>
+</testcase>
+<testcase classname="Activity Creation" name="Creating Activity 4" time="28.128421">
+<system-out><![CDATA[Given User is on create activity page.......................................passed
+When User has to fill the fields like TaskAlexa Custom Code Post_Conversion,ApplicationAreaFunctional - All / PMO,PhasePost Conversion,RoleFunctional,BuildingBlockApplication Overview,Est Hrs45:32.passed
+And User has to click on create button for create activity and need to select task.passed
+Then User can search for created activity in listAlexa Custom Code Post_Conversion.passed
+]]></system-out>
+</testcase>
+</testsuite>

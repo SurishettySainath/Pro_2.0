@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pro_Acc_End_to_End_Suite" time="89.973" tests="1" failures="0" errors="0">
+   <testsuite name="Pro_Acc_End_to_End_Suite" tests="1" failures="0" errors="0" time="89.973" timestamp="2020-08-18 15:08:40" hostname="Group10 - Group10-PC" id="Test Suites/Pro_Acc_End_to_End_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200818_150835\\Pro_Acc_End_to_End_Suite\\20200818_150835"/>
+         <property name="logFiles" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200818_150835\\Pro_Acc_End_to_End_Suite\\20200818_150835\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\screenshots\\Tue_Aug_18_15_09_51_IST_2020.png, C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\screenshots\\Tue_Aug_18_15_10_08_IST_2020.png"/>
+         <property name="hostName" value="Group10 - Group10-PC"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="7.6.1.205"/>
+         <property name="browser" value="Chrome 84.0.4147.125"/>
+         <property name="hostAddress" value="192.168.43.206"/>
+         <property name="sessionId" value="1d9fed161199fb34863a258e757030a6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Tc_Consultant/TC_AssessmentMonitorforConsultant" time="87.754" classname="Test Cases/Tc_Consultant/TC_AssessmentMonitorforConsultant" status="PASSED">
+         <system-out><![CDATA[2020-08-18 15:08:41 - [TEST_CASE][PASSED] - Test Cases/Tc_Consultant/TC_AssessmentMonitorforConsultant: Test Cases/Tc_Consultant/TC_AssessmentMonitorforConsultant
+
+2020-08-18 15:08:42 - [TEST_STEP][PASSED] - runWithCucumberRunner(testRunner.AssessmentMonitorforConsultant_Runner): Run with 'testRunner.AssessmentMonitorforConsultant_Runner' was passed
+
+2020-08-18 15:08:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-18 15:08:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-18 15:08:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-18 15:08:50 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-18 15:08:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-18 15:09:03 - [MESSAGE][PASSED] - Navigate to 'http://123.176.34.15:4041/ProAccQA' successfully
+
+2020-08-18 15:09:04 - [MESSAGE][PASSED] - Text 'John_Consultant' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Username'
+
+2020-08-18 15:09:05 - [MESSAGE][PASSED] - Text 'a12345@' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Password'
+
+2020-08-18 15:09:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 15:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Login/button_Login' is clicked on
+
+2020-08-18 15:09:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-18 15:09:31 - [MESSAGE][PASSED] - Text 'Dashboard' is present on page 
+
+2020-08-18 15:09:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-18 15:09:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Assessment' is clicked on
+
+2020-08-18 15:09:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/a_Assessment Monitor' is clicked on
+
+2020-08-18 15:09:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-18 15:09:45 - [MESSAGE][PASSED] - All options with label 'james' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/select_-SelectCustomerName'  using regular expression
+
+2020-08-18 15:09:46 - [MESSAGE][PASSED] - All options with label 'Coversion pilot' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/select_-SelectProjectName'  using regular expression
+
+2020-08-18 15:09:47 - [MESSAGE][PASSED] - All options with label 'P01' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/select_-SelectInstanceName'  using regular expression
+
+2020-08-18 15:09:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 15:09:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\screenshots\\Tue_Aug_18_15_09_51_IST_2020.png]]
+
+2020-08-18 15:09:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-18 15:10:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="NXReportButton"]
+'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-08-18 15:10:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\screenshots\\Tue_Aug_18_15_10_08_IST_2020.png]]
+
+2020-08-18 15:10:09 - [MESSAGE][PASSED] - Run with 'testRunner.AssessmentMonitorforConsultant_Runner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-18 15:08:40 - [TEST_SUITE][PASSED] - Pro_Acc_End_to_End_Suite: Test Cases/Tc_Consultant/TC_AssessmentMonitorforConsultant]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,181 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Login to application",
+        "description": "",
+        "id": "assessment-monitor-for-consultant;login-to-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30584801290,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should navigate to ProAcc page",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_should_navigate_to_ProAcc_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3399530194,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters Tin_Consultant and a12345@",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tin_Consultant",
+                  "offset": 12
+                },
+                {
+                  "val": "a12345@",
+                  "offset": 31
+                }
+              ],
+              "location": "LogintoProAcc_StepDef.user_enters(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35613507268,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on LOG IN button",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_clicks_on_LOG_IN_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6406330951,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User will be logged in successfully",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_will_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Assessment Monitor functionality for Consultant",
+        "description": "",
+        "id": "assessment-monitor-for-consultant;assessment-monitor-functionality-for-consultant;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8462291275,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on Consultant Monitor pageAssessment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Assessment",
+                  "offset": 34
+                }
+              ],
+              "location": "AssessmentMonitor_Consultant.user_is_on_Consultant_Monitor_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8988627920,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User has to select Consultant CustomernameTin Test and Project NameTin Pilot Phase Test and Consultant Instance NameT01 from the dropdown for consultant Assessment Monitor",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tin Test",
+                  "offset": 42
+                },
+                {
+                  "val": "Tin Pilot Phase Test",
+                  "offset": 67
+                },
+                {
+                  "val": "T01",
+                  "offset": 116
+                }
+              ],
+              "location": "AssessmentMonitor_Consultant.user_has_to_select_Consultant_Customername_and_Project_Name_and_Consultant_Instance_Name_from_the_dropdown_for_consultant_Assessment_Monitor(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2314926814,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User has to click on select instance button for Consultant Assessment Monitor",
+            "match": {
+              "location": "AssessmentMonitor_Consultant.user_has_to_click_on_select_instance_button_for_Consultant_Assessment_Monitor()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83923628035,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User has to edit task for consultant",
+            "match": {
+              "location": "AssessmentMonitor_Consultant.user_has_to_edit_task_for_consultant()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14067307413,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should select instance successfully for Assessment Monitor Consultant",
+            "match": {
+              "location": "AssessmentMonitor_Consultant.user_should_select_instance_successfully_for_Assessment_Monitor_Consultant()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Assessment Monitor for Consultant",
+    "description": "",
+    "id": "assessment-monitor-for-consultant",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Assessment/AssessmentMonitor_Consultant.feature",
+    "tags": []
+  }
+]

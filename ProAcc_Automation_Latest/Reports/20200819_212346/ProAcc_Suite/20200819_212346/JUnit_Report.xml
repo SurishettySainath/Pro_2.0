@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ProAcc_Suite" time="93.863" tests="1" failures="0" errors="0">
+   <testsuite name="ProAcc_Suite" tests="1" failures="0" errors="0" time="93.863" timestamp="2020-08-19 21:23:51" hostname="Group10 - Group10-PC" id="Test Suites/ProAcc_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200819_212346\\ProAcc_Suite\\20200819_212346"/>
+         <property name="logFiles" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200819_212346\\ProAcc_Suite\\20200819_212346\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Group10 - Group10-PC"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="7.6.1.205"/>
+         <property name="browser" value="Chrome 84.0.4147.125"/>
+         <property name="hostAddress" value="192.168.43.206"/>
+         <property name="sessionId" value="156b6668d5f87eb939c4b59be8ddb7be"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Tc_Consultant/TC_CreateAnalysis" time="91.439" classname="Test Cases/Tc_Consultant/TC_CreateAnalysis" status="PASSED">
+         <system-out><![CDATA[2020-08-19 21:23:52 - [TEST_CASE][PASSED] - Test Cases/Tc_Consultant/TC_CreateAnalysis: Test Cases/Tc_Consultant/TC_CreateAnalysis
+
+2020-08-19 21:23:52 - [TEST_STEP][PASSED] - runWithCucumberRunner(testRunner.CreateAnalysis_Runner): Run with 'testRunner.CreateAnalysis_Runner' was passed
+
+2020-08-19 21:23:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-19 21:23:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-19 21:23:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-19 21:23:59 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-19 21:24:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-19 21:24:12 - [MESSAGE][PASSED] - Navigate to 'http://123.176.34.15:4041/ProAccQA' successfully
+
+2020-08-19 21:24:13 - [MESSAGE][PASSED] - Text 'John_Consultant' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Username'
+
+2020-08-19 21:24:13 - [MESSAGE][PASSED] - Text 'a12345@' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Password'
+
+2020-08-19 21:24:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:24:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Login/button_Login' is clicked on
+
+2020-08-19 21:24:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 21:24:39 - [MESSAGE][PASSED] - Text 'Dashboard' is present on page 
+
+2020-08-19 21:24:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 21:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_CreateAnalysis/Select Assessemnt_CA' is clicked on
+
+2020-08-19 21:24:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 21:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_CreateAnalysis/Report_Btn' is clicked on
+
+2020-08-19 21:24:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:24:49 - [MESSAGE][PASSED] - All options with label 'Tin Test' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_CreateAnalysis/select_- selectCustomer'  using regular expression
+
+2020-08-19 21:24:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:24:50 - [MESSAGE][PASSED] - All options with label 'Tin Pilot Phase Test' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_CreateAnalysis/select_SelectProject'  using regular expression
+
+2020-08-19 21:24:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 21:24:52 - [MESSAGE][PASSED] - All options with label 'T01' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_CreateAnalysis/select_SelectaInstance'  using regular expression
+
+2020-08-19 21:24:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:24:55 - [MESSAGE][PASSED] - File 'C:/Users/Group10/Desktop/New folder (2)/ProAcc_Automation_Latest/ProAcc_Automation_Latest/Include/Pro Acc Input file/Activities.xlsx' sent to object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_CreateAnalysis/input_Activities_files'
+
+2020-08-19 21:24:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:24:57 - [MESSAGE][PASSED] - File 'C:/Users/Group10/Desktop/New folder (2)/ProAcc_Automation_Latest/ProAcc_Automation_Latest/Include/Pro Acc Input file/Bwextractors.xlsx' sent to object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_CreateAnalysis/input_BW Extractors_files'
+
+2020-08-19 21:24:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:25:00 - [MESSAGE][PASSED] - File 'C:/Users/Group10/Desktop/New folder (2)/ProAcc_Automation_Latest/ProAcc_Automation_Latest/Include/Pro Acc Input file/CustomCode.xlsx' sent to object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_CreateAnalysis/input_Custom Code Analysis_files'
+
+2020-08-19 21:25:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:25:02 - [MESSAGE][PASSED] - File 'C:/Users/Group10/Desktop/New folder (2)/ProAcc_Automation_Latest/ProAcc_Automation_Latest/Include/Pro Acc Input file/HanaDatabaseTables.xlsx' sent to object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_CreateAnalysis/input_HANA Database Tables_files'
+
+2020-08-19 21:25:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:25:04 - [MESSAGE][PASSED] - File 'C:/Users/Group10/Desktop/New folder (2)/ProAcc_Automation_Latest/ProAcc_Automation_Latest/Include/Pro Acc Input file/RecommendedFioriApps.xlsx' sent to object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_CreateAnalysis/input_Recommended Fiori Apps_files'
+
+2020-08-19 21:25:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:25:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_CreateAnalysis/input_Relevant Simplification Items_files' successfully
+
+2020-08-19 21:25:07 - [MESSAGE][PASSED] - File 'C:/Users/Group10/Desktop/New folder (2)/ProAcc_Automation_Latest/ProAcc_Automation_Latest/Include/Pro Acc Input file/RelevantSimplificationItems.xlsx' sent to object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_CreateAnalysis/input_Relevant Simplification Items_files'
+
+2020-08-19 21:25:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 21:25:09 - [MESSAGE][PASSED] - File 'C:/Users/Group10/Desktop/New folder (2)/ProAcc_Automation_Latest/ProAcc_Automation_Latest/Include/Pro Acc Input file/SAP Readiness Check.docx' sent to object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_CreateAnalysis/input_SAP Readiness Check_files'
+
+2020-08-19 21:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_CreateAnalysis/check terms_checkbox' is clicked on
+
+2020-08-19 21:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_CreateAnalysis/Acknow_checkbox' is clicked on
+
+2020-08-19 21:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_CreateAnalysis/button_Start Analysis' is clicked on
+
+2020-08-19 21:25:14 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-08-19 21:25:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 21:25:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_CreateAnalysis/Report_Btn' is clicked on
+
+2020-08-19 21:25:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Logout/User_Click' is clicked on
+
+2020-08-19 21:25:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Logout/Logout' is clicked on
+
+2020-08-19 21:25:24 - [MESSAGE][PASSED] - Run with 'testRunner.CreateAnalysis_Runner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-19 21:23:51 - [TEST_SUITE][PASSED] - ProAcc_Suite: Test Cases/Tc_Consultant/TC_CreateAnalysis]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

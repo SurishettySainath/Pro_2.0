@@ -1,0 +1,16 @@
+{"testCaseName":"Test Cases/Tc_Admin/TC_Login","testCaseId":"Test Cases/Tc_Admin/TC_Login"}
+{"testCaseName":"Test Cases/Tc_Admin/TC_CreateCustomer","testCaseId":"Test Cases/Tc_Admin/TC_CreateCustomer"}
+{"testCaseName":"Test Cases/Tc_Admin/TC_ViewCustomer","testCaseId":"Test Cases/Tc_Admin/TC_ViewCustomer"}
+{"testCaseName":"Test Cases/Tc_Admin/TC_CreateUser","testCaseId":"Test Cases/Tc_Admin/TC_CreateUser"}
+{"testCaseName":"Test Cases/Tc_Admin/TC_CreateProject","testCaseId":"Test Cases/Tc_Admin/TC_CreateProject"}
+{"testCaseName":"Test Cases/Tc_Admin/TC_CreateInstance","testCaseId":"Test Cases/Tc_Admin/TC_CreateInstance"}
+{"testCaseName":"Test Cases/Tc_Admin/TC_ActivityCreation","testCaseId":"Test Cases/Tc_Admin/TC_ActivityCreation"}
+{"testCaseName":"Test Cases/Tc_PM/TC_ResourceAllocation","testCaseId":"Test Cases/Tc_PM/TC_ResourceAllocation"}
+{"testCaseName":"Test Cases/Tc_Consultant/TC_AssessmentMonitorforConsultant","testCaseId":"Test Cases/Tc_Consultant/TC_AssessmentMonitorforConsultant"}
+{"testCaseName":"Test Cases/Tc_Consultant/TC_CreateAnalysis","testCaseId":"Test Cases/Tc_Consultant/TC_CreateAnalysis"}
+{"testCaseName":"Test Cases/Tc_PM/TC_ResourceAllocation_PreConversion_PM","testCaseId":"Test Cases/Tc_PM/TC_ResourceAllocation_PreConversion_PM"}
+{"testCaseName":"Test Cases/Tc_Consultant/TC_PreConversionMonitor_Consultant","testCaseId":"Test Cases/Tc_Consultant/TC_PreConversionMonitor_Consultant"}
+{"testCaseName":"Test Cases/Tc_PM/TC_ResourceAllocation_Conversion_PM","testCaseId":"Test Cases/Tc_PM/TC_ResourceAllocation_Conversion_PM"}
+{"testCaseName":"Test Cases/Tc_Consultant/TC_ConversionMonitor_Consultant","testCaseId":"Test Cases/Tc_Consultant/TC_ConversionMonitor_Consultant"}
+{"testCaseName":"Test Cases/Tc_PM/TC_ResourceAllocation_PostConversion_PM","testCaseId":"Test Cases/Tc_PM/TC_ResourceAllocation_PostConversion_PM"}
+{"testCaseName":"Test Cases/Tc_Consultant/TC_PostConversionMonitor_Consultant","testCaseId":"Test Cases/Tc_Consultant/TC_PostConversionMonitor_Consultant"}

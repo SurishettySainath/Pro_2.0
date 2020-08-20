@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pro_Acc_End_to_End_Suite" time="129.217" tests="1" failures="0" errors="0">
+   <testsuite name="Pro_Acc_End_to_End_Suite" tests="1" failures="0" errors="0" time="129.217" timestamp="2020-07-13 20:42:05" hostname="Group10 - Group10-PC" id="Test Suites/Pro_Acc_End_to_End_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200713_204159\\Pro_Acc_End_to_End_Suite\\20200713_204159"/>
+         <property name="logFiles" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200713_204159\\Pro_Acc_End_to_End_Suite\\20200713_204159\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Group10 - Group10-PC"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="7.5.10.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.43.206"/>
+         <property name="sessionId" value="31676195a943ff0862ce91ad2a56c04f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Tc_Consultant/TC_ConversionMonitor_Consultant" time="126.571" classname="Test Cases/Tc_Consultant/TC_ConversionMonitor_Consultant" status="PASSED">
+         <system-out><![CDATA[2020-07-13 20:42:05 - [TEST_CASE][PASSED] - Test Cases/Tc_Consultant/TC_ConversionMonitor_Consultant: Test Cases/Tc_Consultant/TC_ConversionMonitor_Consultant
+
+2020-07-13 20:42:06 - [TEST_STEP][PASSED] - runWithCucumberRunner(pro_acc_test_runner.ConversionMonitor_Consultant_Runner): Run with 'pro_acc_test_runner.ConversionMonitor_Consultant_Runner' was passed
+
+2020-07-13 20:42:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-07-13 20:42:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-07-13 20:42:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-07-13 20:42:13 - [MESSAGE][PASSED] - Current window maximized
+
+2020-07-13 20:42:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-07-13 20:42:23 - [MESSAGE][PASSED] - Navigate to 'http://123.176.34.15:4041/ProAccQA' successfully
+
+2020-07-13 20:42:24 - [MESSAGE][PASSED] - Text 'Arun' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Username'
+
+2020-07-13 20:42:25 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Password'
+
+2020-07-13 20:42:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-07-13 20:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Login/button_Login' is clicked on
+
+2020-07-13 20:42:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-13 20:42:44 - [MESSAGE][PASSED] - Text 'Dashboard' is present on page 
+
+2020-07-13 20:42:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-13 20:42:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Conversion/Select_Conversion' is clicked on
+
+2020-07-13 20:42:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Conversion/ConversionMonitor_PM' is clicked on
+
+2020-07-13 20:42:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-07-13 20:42:57 - [MESSAGE][PASSED] - All options with label 'Alexa Test' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/select_-SelectCustomerName'  using regular expression
+
+2020-07-13 20:42:58 - [MESSAGE][PASSED] - All options with label 'Alexa Pilot Phase Test' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/select_-SelectProjectName'  using regular expression
+
+2020-07-13 20:43:00 - [MESSAGE][PASSED] - All options with label 'A04' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/select_-SelectInstanceName'  using regular expression
+
+2020-07-13 20:43:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-07-13 20:43:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pro_Acc_AssessmentMonitorforConsultant/Page_Assessment Monitor/Edit_Button' successfully
+
+2020-07-13 20:43:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-07-13 20:43:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-07-13 20:43:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-13 20:43:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-13 20:43:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-13 20:43:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-13 20:43:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-13 20:43:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-07-13 20:43:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-13 20:43:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-13 20:43:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-13 20:43:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-13 20:43:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-13 20:43:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-07-13 20:43:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-13 20:43:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-13 20:43:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-13 20:43:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-13 20:43:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-13 20:43:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-07-13 20:43:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-13 20:43:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-13 20:43:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-13 20:43:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-13 20:43:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-13 20:43:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-07-13 20:44:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-13 20:44:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-13 20:44:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-13 20:44:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-13 20:44:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-13 20:44:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-13 20:44:12 - [MESSAGE][PASSED] - Run with 'pro_acc_test_runner.ConversionMonitor_Consultant_Runner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-13 20:42:05 - [TEST_SUITE][PASSED] - Pro_Acc_End_to_End_Suite: Test Cases/Tc_Consultant/TC_ConversionMonitor_Consultant]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

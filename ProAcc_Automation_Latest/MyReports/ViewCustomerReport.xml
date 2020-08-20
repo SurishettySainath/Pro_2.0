@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.245189">
+<testcase classname="View Customer functionality" name="View Customer" time="15.245189">
+<system-out><![CDATA[Given User should be navigate view customer page............................passed
+When User can search for the customer in customer search boxTin Test........passed
+Then User can see the created customer in the listTin Test..................passed
+]]></system-out>
+</testcase>
+</testsuite>

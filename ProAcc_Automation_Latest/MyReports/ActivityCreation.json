@@ -1,0 +1,393 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "line": 21,
+        "name": "Creating Activity",
+        "description": "",
+        "id": "activity-creation;creating-activity;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1839610125,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on create activity page",
+            "match": {
+              "location": "ActivityCreation_StepDef.user_is_on_create_activity_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8122724212,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to fill the fields like TaskAlexa Custom Code Assessment,ApplicationAreaTechnical - ABAP,PhaseAssessment,RoleFunctional,BuildingBlockApplication Overview,Est Hrs10:43",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alexa Custom Code Assessment",
+                  "offset": 37
+                },
+                {
+                  "val": "Technical - ABAP",
+                  "offset": 81
+                },
+                {
+                  "val": "Assessment",
+                  "offset": 103
+                },
+                {
+                  "val": "Functional",
+                  "offset": 118
+                },
+                {
+                  "val": "Application Overview",
+                  "offset": 142
+                },
+                {
+                  "val": "10:43",
+                  "offset": 170
+                }
+              ],
+              "location": "ActivityCreation_StepDef.user_has_to_fill_the_fields_like_Task_Sequence_ApplicationArea_Phase_and_Role(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9966744120,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to click on create button for create activity and need to select task",
+            "match": {
+              "location": "ActivityCreation_StepDef.user_has_to_click_on_create_button_for_create_activity_and_need_to_select_task()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8460930677,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User can search for created activity in listAlexa Custom Code Assessment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alexa Custom Code Assessment",
+                  "offset": 44
+                }
+              ],
+              "location": "ActivityCreation_StepDef.user_can_search_for_created_activity_in_list(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Creating Activity",
+        "description": "",
+        "id": "activity-creation;creating-activity;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1181340579,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on create activity page",
+            "match": {
+              "location": "ActivityCreation_StepDef.user_is_on_create_activity_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8618406133,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to fill the fields like TaskAlexa Custom Code Pre_Conversion,ApplicationAreaFunctional / Technical,PhasePre Conversion,RoleFunctional,BuildingBlockData Consistency Verification,Est Hrs11:34",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alexa Custom Code Pre_Conversion",
+                  "offset": 37
+                },
+                {
+                  "val": "Functional / Technical",
+                  "offset": 85
+                },
+                {
+                  "val": "Pre Conversion",
+                  "offset": 113
+                },
+                {
+                  "val": "Functional",
+                  "offset": 132
+                },
+                {
+                  "val": "Data Consistency Verification",
+                  "offset": 156
+                },
+                {
+                  "val": "11:34",
+                  "offset": 193
+                }
+              ],
+              "location": "ActivityCreation_StepDef.user_has_to_fill_the_fields_like_Task_Sequence_ApplicationArea_Phase_and_Role(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9954303286,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to click on create button for create activity and need to select task",
+            "match": {
+              "location": "ActivityCreation_StepDef.user_has_to_click_on_create_button_for_create_activity_and_need_to_select_task()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8519444409,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User can search for created activity in listAlexa Custom Code Pre_Conversion",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alexa Custom Code Pre_Conversion",
+                  "offset": 44
+                }
+              ],
+              "location": "ActivityCreation_StepDef.user_can_search_for_created_activity_in_list(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Creating Activity",
+        "description": "",
+        "id": "activity-creation;creating-activity;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1194864447,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on create activity page",
+            "match": {
+              "location": "ActivityCreation_StepDef.user_is_on_create_activity_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8530434950,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to fill the fields like TaskAlexa Custom Code Conversion,ApplicationAreaTechnical - Security,PhaseConversion,RoleBASIS,BuildingBlockCustom Adoption,Est Hrs12:34",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alexa Custom Code Conversion",
+                  "offset": 37
+                },
+                {
+                  "val": "Technical - Security",
+                  "offset": 81
+                },
+                {
+                  "val": "Conversion",
+                  "offset": 107
+                },
+                {
+                  "val": "BASIS",
+                  "offset": 122
+                },
+                {
+                  "val": "Custom Adoption",
+                  "offset": 141
+                },
+                {
+                  "val": "12:34",
+                  "offset": 164
+                }
+              ],
+              "location": "ActivityCreation_StepDef.user_has_to_fill_the_fields_like_Task_Sequence_ApplicationArea_Phase_and_Role(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9941074832,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to click on create button for create activity and need to select task",
+            "match": {
+              "location": "ActivityCreation_StepDef.user_has_to_click_on_create_button_for_create_activity_and_need_to_select_task()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8547443089,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User can search for created activity in listAlexa Custom Code Conversion",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alexa Custom Code Conversion",
+                  "offset": 44
+                }
+              ],
+              "location": "ActivityCreation_StepDef.user_can_search_for_created_activity_in_list(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Creating Activity",
+        "description": "",
+        "id": "activity-creation;creating-activity;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1374787755,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on create activity page",
+            "match": {
+              "location": "ActivityCreation_StepDef.user_is_on_create_activity_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8350336267,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to fill the fields like TaskAlexa Custom Code Post_Conversion,ApplicationAreaFunctional - All / PMO,PhasePost Conversion,RoleFunctional,BuildingBlockApplication Overview,Est Hrs45:32",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alexa Custom Code Post_Conversion",
+                  "offset": 37
+                },
+                {
+                  "val": "Functional - All / PMO",
+                  "offset": 86
+                },
+                {
+                  "val": "Post Conversion",
+                  "offset": 114
+                },
+                {
+                  "val": "Functional",
+                  "offset": 134
+                },
+                {
+                  "val": "Application Overview",
+                  "offset": 158
+                },
+                {
+                  "val": "45:32",
+                  "offset": 186
+                }
+              ],
+              "location": "ActivityCreation_StepDef.user_has_to_fill_the_fields_like_Task_Sequence_ApplicationArea_Phase_and_Role(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9914634435,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to click on create button for create activity and need to select task",
+            "match": {
+              "location": "ActivityCreation_StepDef.user_has_to_click_on_create_button_for_create_activity_and_need_to_select_task()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8485780215,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User can search for created activity in listAlexa Custom Code Post_Conversion",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alexa Custom Code Post_Conversion",
+                  "offset": 44
+                }
+              ],
+              "location": "ActivityCreation_StepDef.user_can_search_for_created_activity_in_list(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Activity Creation",
+    "description": "",
+    "id": "activity-creation",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Configuration/ActivityCreation.feature",
+    "tags": []
+  }
+]

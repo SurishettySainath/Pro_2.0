@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ProAcc_Suite" time="304.045" tests="2" failures="0" errors="0">
+   <testsuite name="ProAcc_Suite" tests="2" failures="0" errors="0" time="304.045" timestamp="2020-08-19 21:59:40" hostname="Group10 - Group10-PC" id="Test Suites/ProAcc_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200819_215933\\ProAcc_Suite\\20200819_215933"/>
+         <property name="logFiles" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200819_215933\\ProAcc_Suite\\20200819_215933\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\screenshots\\Wed_Aug_19_22_04_41_IST_2020.png"/>
+         <property name="hostName" value="Group10 - Group10-PC"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="7.6.1.205"/>
+         <property name="browser" value="Chrome 84.0.4147.125"/>
+         <property name="hostAddress" value="192.168.43.206"/>
+         <property name="sessionId" value="ca977863b3967abc9df693c043542b05"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Tc_PM/TC_ResourceAllocation_Conversion_PM" time="161.129" classname="Test Cases/Tc_PM/TC_ResourceAllocation_Conversion_PM" status="PASSED">
+         <system-out><![CDATA[2020-08-19 21:59:41 - [TEST_CASE][PASSED] - Test Cases/Tc_PM/TC_ResourceAllocation_Conversion_PM: Test Cases/Tc_PM/TC_ResourceAllocation_Conversion_PM
+
+2020-08-19 21:59:41 - [TEST_STEP][PASSED] - runWithCucumberRunner(pro_acc_test_runner.ResourceAllocation_Conversion_PM_Runner): Run with 'pro_acc_test_runner.ResourceAllocation_Conversion_PM_Runner' was passed
+
+2020-08-19 21:59:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-19 21:59:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-19 21:59:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-19 21:59:48 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-19 21:59:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-19 21:59:59 - [MESSAGE][PASSED] - Navigate to 'http://123.176.34.15:4041/ProAccQA' successfully
+
+2020-08-19 22:00:00 - [MESSAGE][PASSED] - Text 'Tin_PM' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Username'
+
+2020-08-19 22:00:01 - [MESSAGE][PASSED] - Text 'a12345@' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Password'
+
+2020-08-19 22:00:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Login/button_Login' is clicked on
+
+2020-08-19 22:00:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 22:00:26 - [MESSAGE][PASSED] - Text 'Dashboard' is present on page 
+
+2020-08-19 22:00:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 22:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Conversion/Conversion_PM' is clicked on
+
+2020-08-19 22:00:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Conversion/ResourceAllocation_Conversion_PM' is clicked on
+
+2020-08-19 22:00:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:00:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_SelectProject' is clicked on
+
+2020-08-19 22:00:44 - [MESSAGE][PASSED] - All options with label 'Tin Pilot Phase Test' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_SelectProject'  using regular expression
+
+2020-08-19 22:00:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:00:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_SelectInstance' is clicked on
+
+2020-08-19 22:00:47 - [MESSAGE][PASSED] - All options with label 'T01' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_SelectInstance'  using regular expression
+
+2020-08-19 22:00:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:00:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:00:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 22:00:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:00:57 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-08-19 22:00:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:00:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-19 22:00:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task' successfully
+
+2020-08-19 22:01:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:01:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task' is clicked on
+
+2020-08-19 22:01:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:01:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask' is clicked on
+
+2020-08-19 22:01:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:01:04 - [MESSAGE][PASSED] - All options with label 'arun' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask'  using regular expression
+
+2020-08-19 22:01:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:01:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Submit' is clicked on
+
+2020-08-19 22:01:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Yes' is clicked on
+
+2020-08-19 22:01:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-19 22:01:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:01:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-08-19 22:01:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:01:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-19 22:01:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task' successfully
+
+2020-08-19 22:01:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task' is clicked on
+
+2020-08-19 22:01:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask' is clicked on
+
+2020-08-19 22:01:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:01:21 - [MESSAGE][PASSED] - All options with label 'arun' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask'  using regular expression
+
+2020-08-19 22:01:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Submit' is clicked on
+
+2020-08-19 22:01:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:01:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Yes' is clicked on
+
+2020-08-19 22:01:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-19 22:01:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:01:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-08-19 22:01:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:01:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-19 22:01:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task' successfully
+
+2020-08-19 22:01:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task' is clicked on
+
+2020-08-19 22:01:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask' is clicked on
+
+2020-08-19 22:01:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:01:38 - [MESSAGE][PASSED] - All options with label 'arun' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask'  using regular expression
+
+2020-08-19 22:01:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Submit' is clicked on
+
+2020-08-19 22:01:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:01:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Yes' is clicked on
+
+2020-08-19 22:01:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-19 22:01:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:01:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-08-19 22:01:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:01:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-19 22:01:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task' successfully
+
+2020-08-19 22:01:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:01:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task' is clicked on
+
+2020-08-19 22:01:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:01:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask' is clicked on
+
+2020-08-19 22:01:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:01:55 - [MESSAGE][PASSED] - All options with label 'arun' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask'  using regular expression
+
+2020-08-19 22:01:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Submit' is clicked on
+
+2020-08-19 22:01:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Yes' is clicked on
+
+2020-08-19 22:02:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-19 22:02:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:02:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-08-19 22:02:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:02:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-19 22:02:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task' successfully
+
+2020-08-19 22:02:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task' is clicked on
+
+2020-08-19 22:02:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:02:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask' is clicked on
+
+2020-08-19 22:02:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:02:13 - [MESSAGE][PASSED] - All options with label 'arun' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask'  using regular expression
+
+2020-08-19 22:02:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Submit' is clicked on
+
+2020-08-19 22:02:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Yes' is clicked on
+
+2020-08-19 22:02:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-19 22:02:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Logout/User_Click' is clicked on
+
+2020-08-19 22:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Logout/Logout' is clicked on
+
+2020-08-19 22:02:22 - [MESSAGE][PASSED] - Run with 'pro_acc_test_runner.ResourceAllocation_Conversion_PM_Runner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tc_Consultant/TC_ConversionMonitor_Consultant" time="140.45" classname="Test Cases/Tc_Consultant/TC_ConversionMonitor_Consultant" status="PASSED">
+         <system-out><![CDATA[2020-08-19 22:02:22 - [TEST_CASE][PASSED] - Test Cases/Tc_Consultant/TC_ConversionMonitor_Consultant: Test Cases/Tc_Consultant/TC_ConversionMonitor_Consultant
+
+2020-08-19 22:02:22 - [TEST_STEP][PASSED] - runWithCucumberRunner(pro_acc_test_runner.ConversionMonitor_Consultant_Runner): Run with 'pro_acc_test_runner.ConversionMonitor_Consultant_Runner' was passed
+
+2020-08-19 22:02:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-08-19 22:02:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-19 22:02:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-19 22:02:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-19 22:02:28 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-19 22:02:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-19 22:02:39 - [MESSAGE][PASSED] - Navigate to 'http://123.176.34.15:4041/ProAccQA' successfully
+
+2020-08-19 22:02:40 - [MESSAGE][PASSED] - Text 'Arun' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Username'
+
+2020-08-19 22:02:40 - [MESSAGE][PASSED] - Text 'a12345@' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Password'
+
+2020-08-19 22:02:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:02:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Login/button_Login' is clicked on
+
+2020-08-19 22:02:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 22:02:54 - [MESSAGE][PASSED] - Text 'Dashboard' is present on page 
+
+2020-08-19 22:02:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 22:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Conversion/Select_Conversion' is clicked on
+
+2020-08-19 22:02:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Conversion/ConversionMonitor_PM' is clicked on
+
+2020-08-19 22:03:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-19 22:03:05 - [MESSAGE][PASSED] - All options with label 'Tin Test' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/select_-SelectCustomerName'  using regular expression
+
+2020-08-19 22:03:06 - [MESSAGE][PASSED] - All options with label 'Tin Pilot Phase Test' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/select_-SelectProjectName'  using regular expression
+
+2020-08-19 22:03:07 - [MESSAGE][PASSED] - All options with label 'T01' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/select_-SelectInstanceName'  using regular expression
+
+2020-08-19 22:03:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:03:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pro_Acc_AssessmentMonitorforConsultant/Page_Assessment Monitor/Edit_Button' successfully
+
+2020-08-19 22:03:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:03:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:03:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:03:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 22:03:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:03:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:03:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:03:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 22:03:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:03:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:03:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 22:03:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:03:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:03:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:03:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 22:03:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:03:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:03:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 22:03:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:03:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:03:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:03:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 22:04:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:04:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:04:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 22:04:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:04:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:04:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:04:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 22:04:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:04:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-19 22:04:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 22:04:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:04:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:04:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-19 22:04:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 22:04:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-19 22:04:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="NXReportButton"]
+'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-08-19 22:04:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\screenshots\\Wed_Aug_19_22_04_41_IST_2020.png]]
+
+2020-08-19 22:04:42 - [MESSAGE][PASSED] - Run with 'pro_acc_test_runner.ConversionMonitor_Consultant_Runner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-19 21:59:40 - [TEST_SUITE][PASSED] - ProAcc_Suite: Test Cases/Tc_Consultant/TC_ConversionMonitor_Consultant]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

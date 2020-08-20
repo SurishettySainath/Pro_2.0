@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ProAcc_Suite" time="52.55" tests="1" failures="0" errors="0">
+   <testsuite name="ProAcc_Suite" tests="1" failures="0" errors="0" time="52.55" timestamp="2020-08-20 10:59:26" hostname="Group10 - Group10-PC" id="Test Suites/ProAcc_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200820_105921\\ProAcc_Suite\\20200820_105921"/>
+         <property name="logFiles" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200820_105921\\ProAcc_Suite\\20200820_105921\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Group10 - Group10-PC"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="7.6.1.205"/>
+         <property name="browser" value="Chrome 84.0.4147.125"/>
+         <property name="hostAddress" value="192.168.43.206"/>
+         <property name="sessionId" value="3a09161be50a2de1dcb91ef1315d500e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Tc_PM/TC_DashBoard" time="50.12" classname="Test Cases/Tc_PM/TC_DashBoard" status="PASSED">
+         <system-out><![CDATA[2020-08-20 10:59:27 - [TEST_CASE][PASSED] - Test Cases/Tc_PM/TC_DashBoard: Test Cases/Tc_PM/TC_DashBoard
+
+2020-08-20 10:59:27 - [TEST_STEP][PASSED] - runWithCucumberRunner(testRunner.Dashboard_Runner): Run with 'testRunner.Dashboard_Runner' was passed
+
+2020-08-20 10:59:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-20 10:59:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-20 10:59:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-20 10:59:34 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-20 10:59:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-20 10:59:41 - [MESSAGE][PASSED] - Navigate to 'http://123.176.34.15:4041/ProAccQA' successfully
+
+2020-08-20 10:59:41 - [MESSAGE][PASSED] - Text 'Tin_PM' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Username'
+
+2020-08-20 10:59:42 - [MESSAGE][PASSED] - Text 'a12345@' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Password'
+
+2020-08-20 10:59:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-20 10:59:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Login/button_Login' is clicked on
+
+2020-08-20 10:59:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-20 10:59:52 - [MESSAGE][PASSED] - Text 'Dashboard' is present on page 
+
+2020-08-20 10:59:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-20 10:59:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Dashboard/a_Dashboard' is clicked on
+
+2020-08-20 10:59:57 - [MESSAGE][PASSED] - All options with label 'Tin Pilot Phase Test' are selected in object 'Object Repository/Pro_Acc_Dashboard/select_-Project'  using regular expression
+
+2020-08-20 10:59:59 - [MESSAGE][PASSED] - All options with label 'T01' are selected in object 'Object Repository/Pro_Acc_Dashboard/select_-Instance'  using regular expression
+
+2020-08-20 10:59:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Dashboard/button_Select Instance' is clicked on
+
+2020-08-20 11:00:07 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-08-20 11:00:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pro_Acc_Dashboard/Element_scroll' successfully
+
+2020-08-20 11:00:16 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-08-20 11:00:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Logout/User_Click' is clicked on
+
+2020-08-20 11:00:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Logout/Logout' is clicked on
+
+2020-08-20 11:00:17 - [MESSAGE][PASSED] - Run with 'testRunner.Dashboard_Runner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-20 10:59:26 - [TEST_SUITE][PASSED] - ProAcc_Suite: Test Cases/Tc_PM/TC_DashBoard]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

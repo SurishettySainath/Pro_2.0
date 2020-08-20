@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pro_Acc_End_to_End_Suite" time="116.126" tests="1" failures="0" errors="0">
+   <testsuite name="Pro_Acc_End_to_End_Suite" tests="1" failures="0" errors="0" time="116.126" timestamp="2020-08-18 15:12:58" hostname="Group10 - Group10-PC" id="Test Suites/Pro_Acc_End_to_End_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200818_151253\\Pro_Acc_End_to_End_Suite\\20200818_151253"/>
+         <property name="logFiles" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200818_151253\\Pro_Acc_End_to_End_Suite\\20200818_151253\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\screenshots\\Tue_Aug_18_15_14_36_IST_2020.png, C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\screenshots\\Tue_Aug_18_15_14_52_IST_2020.png"/>
+         <property name="hostName" value="Group10 - Group10-PC"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="7.6.1.205"/>
+         <property name="browser" value="Chrome 84.0.4147.125"/>
+         <property name="hostAddress" value="192.168.43.206"/>
+         <property name="sessionId" value="e171afda572b6f8679497960a468e229"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Tc_Consultant/TC_AssessmentMonitorforConsultant" time="114.322" classname="Test Cases/Tc_Consultant/TC_AssessmentMonitorforConsultant" status="PASSED">
+         <system-out><![CDATA[2020-08-18 15:12:59 - [TEST_CASE][PASSED] - Test Cases/Tc_Consultant/TC_AssessmentMonitorforConsultant: Test Cases/Tc_Consultant/TC_AssessmentMonitorforConsultant
+
+2020-08-18 15:12:59 - [TEST_STEP][PASSED] - runWithCucumberRunner(testRunner.AssessmentMonitorforConsultant_Runner): Run with 'testRunner.AssessmentMonitorforConsultant_Runner' was passed
+
+2020-08-18 15:13:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-18 15:13:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-18 15:13:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-18 15:13:07 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-18 15:13:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-18 15:13:22 - [MESSAGE][PASSED] - Navigate to 'http://123.176.34.15:4041/ProAccQA' successfully
+
+2020-08-18 15:13:23 - [MESSAGE][PASSED] - Text 'John_Consultant' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Username'
+
+2020-08-18 15:13:24 - [MESSAGE][PASSED] - Text 'a12345@' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Password'
+
+2020-08-18 15:13:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 15:13:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Login/button_Login' is clicked on
+
+2020-08-18 15:14:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-18 15:14:02 - [MESSAGE][PASSED] - Text 'Dashboard' is present on page 
+
+2020-08-18 15:14:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-18 15:14:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Assessment' is clicked on
+
+2020-08-18 15:14:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/a_Assessment Monitor' is clicked on
+
+2020-08-18 15:14:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-18 15:14:27 - [MESSAGE][PASSED] - All options with label 'james' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/select_-SelectCustomerName'  using regular expression
+
+2020-08-18 15:14:29 - [MESSAGE][PASSED] - All options with label 'Coversion pilot' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/select_-SelectProjectName'  using regular expression
+
+2020-08-18 15:14:30 - [MESSAGE][PASSED] - All options with label 'P01' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/select_-SelectInstanceName'  using regular expression
+
+2020-08-18 15:14:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 15:14:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Pro_Acc_AssessmentMonitorforConsultant/Page_Assessment Monitor/Edit_Button' successfully
+
+2020-08-18 15:14:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\screenshots\\Tue_Aug_18_15_14_36_IST_2020.png]]
+
+2020-08-18 15:14:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-18 15:14:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="NXReportButton"]
+'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-08-18 15:14:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\screenshots\\Tue_Aug_18_15_14_52_IST_2020.png]]
+
+2020-08-18 15:14:53 - [MESSAGE][PASSED] - Run with 'testRunner.AssessmentMonitorforConsultant_Runner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-18 15:12:58 - [TEST_SUITE][PASSED] - Pro_Acc_End_to_End_Suite: Test Cases/Tc_Consultant/TC_AssessmentMonitorforConsultant]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

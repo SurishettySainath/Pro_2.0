@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="48.600443">
+<testcase classname="To view all the details" name="Login to application" time="26.172237">
+<system-out><![CDATA[Given User should navigate to ProAcc page...................................passed
+And User enters Tin_PM and a12345@..........................................passed
+When User clicks on LOG IN button...........................................passed
+Then User will be logged in successfully....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To view all the details" name="" time="22.428206">
+<system-out><![CDATA[Given User is on dashboard page.............................................passed
+When User has to select project name and instance from dropdown list........passed
+Then User has able to see the recent updates on task........................passed
+]]></system-out>
+</testcase>
+</testsuite>

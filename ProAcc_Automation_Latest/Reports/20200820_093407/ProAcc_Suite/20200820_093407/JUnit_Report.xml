@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ProAcc_Suite" time="57.409" tests="1" failures="0" errors="0">
+   <testsuite name="ProAcc_Suite" tests="1" failures="0" errors="0" time="57.409" timestamp="2020-08-20 09:34:13" hostname="Group10 - Group10-PC" id="Test Suites/ProAcc_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200820_093407\\ProAcc_Suite\\20200820_093407"/>
+         <property name="logFiles" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200820_093407\\ProAcc_Suite\\20200820_093407\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Group10 - Group10-PC"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="7.6.1.205"/>
+         <property name="browser" value="Chrome 84.0.4147.125"/>
+         <property name="hostAddress" value="192.168.43.206"/>
+         <property name="sessionId" value="9d4f732e50e8f5898e80b99001859896"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Tc_Consultant/TC_PostConversionMonitor_Consultant" time="54.815" classname="Test Cases/Tc_Consultant/TC_PostConversionMonitor_Consultant" status="PASSED">
+         <system-out><![CDATA[2020-08-20 09:34:14 - [TEST_CASE][PASSED] - Test Cases/Tc_Consultant/TC_PostConversionMonitor_Consultant: Test Cases/Tc_Consultant/TC_PostConversionMonitor_Consultant
+
+2020-08-20 09:34:14 - [TEST_STEP][PASSED] - runWithCucumberRunner(pro_acc_test_runner.PostConversionMonitor_Consultant_Runner): Run with 'pro_acc_test_runner.PostConversionMonitor_Consultant_Runner' was passed
+
+2020-08-20 09:34:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-20 09:34:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-20 09:34:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-20 09:34:21 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-20 09:34:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-20 09:34:32 - [MESSAGE][PASSED] - Navigate to 'http://123.176.34.15:4041/ProAccQA' successfully
+
+2020-08-20 09:34:33 - [MESSAGE][PASSED] - Text 'Tin_Consultant' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Username'
+
+2020-08-20 09:34:34 - [MESSAGE][PASSED] - Text 'a12345@' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Password'
+
+2020-08-20 09:34:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-20 09:34:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Login/button_Login' is clicked on
+
+2020-08-20 09:34:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-20 09:34:48 - [MESSAGE][PASSED] - Text 'Dashboard' is present on page 
+
+2020-08-20 09:34:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-20 09:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Post-Conversion/Select_Post-Conversion' is clicked on
+
+2020-08-20 09:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Post-Conversion/Post-ConversionMonitor_PM' is clicked on
+
+2020-08-20 09:34:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-20 09:34:59 - [MESSAGE][PASSED] - All options with label 'Tin Test' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/select_-SelectCustomerName'  using regular expression
+
+2020-08-20 09:35:01 - [MESSAGE][PASSED] - All options with label 'Tin Pilot Phase Test' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/select_-SelectProjectName'  using regular expression
+
+2020-08-20 09:35:02 - [MESSAGE][PASSED] - All options with label 'T01' are selected in object 'Object Repository/Pro_Acc_Assessment/Pro_Acc_AssessmentMonitor/select_-SelectInstanceName'  using regular expression
+
+2020-08-20 09:35:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-20 09:35:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-20 09:35:09 - [MESSAGE][PASSED] - Run with 'pro_acc_test_runner.PostConversionMonitor_Consultant_Runner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-20 09:34:13 - [TEST_SUITE][PASSED] - ProAcc_Suite: Test Cases/Tc_Consultant/TC_PostConversionMonitor_Consultant]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

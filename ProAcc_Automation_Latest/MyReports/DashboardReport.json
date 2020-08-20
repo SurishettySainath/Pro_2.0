@@ -1,0 +1,137 @@
+[
+  {
+    "line": 11,
+    "elements": [
+      {
+        "line": 22,
+        "name": "Login to application",
+        "description": "",
+        "id": "to-view-all-the-details;login-to-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12213697278,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should navigate to ProAcc page",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_should_navigate_to_ProAcc_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3505749184,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters Tin_PM and a12345@",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tin_PM",
+                  "offset": 12
+                },
+                {
+                  "val": "a12345@",
+                  "offset": 23
+                }
+              ],
+              "location": "LogintoProAcc_StepDef.user_enters(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4023188171,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on LOG IN button",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_clicks_on_LOG_IN_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6409425207,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User will be logged in successfully",
+            "match": {
+              "location": "LogintoProAcc_StepDef.user_will_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "",
+        "description": "",
+        "id": "to-view-all-the-details;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1193754191,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User is on dashboard page",
+            "match": {
+              "location": "Dashboard.user_is_on_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3657879083,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User has to select project name and instance from dropdown list",
+            "match": {
+              "location": "Dashboard.user_has_to_select_project_name_and_instance_from_dropdown_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17574552406,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User has able to see the recent updates on task",
+            "match": {
+              "location": "Dashboard.user_has_able_to_see_the_recent_updates_on_task()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "To view all the details",
+    "description": "",
+    "id": "to-view-all-the-details",
+    "keyword": "Feature",
+    "uri": "Include/features/proAcc_Featurefile/Home_Page/Dashboard.feature",
+    "tags": []
+  }
+]

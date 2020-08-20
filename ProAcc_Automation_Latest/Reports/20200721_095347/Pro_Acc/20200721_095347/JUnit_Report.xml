@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pro_Acc" time="66.397" tests="1" failures="0" errors="0">
+   <testsuite name="Pro_Acc" tests="1" failures="0" errors="0" time="66.397" timestamp="2020-07-21 09:53:58" hostname="Group10 - Group10-PC" id="Test Suites/Pro_Acc">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200721_095347\\Pro_Acc\\20200721_095347"/>
+         <property name="logFiles" value="C:\\Users\\Group10\\Desktop\\New folder (2)\\ProAcc_Automation_Latest\\ProAcc_Automation_Latest\\Reports\\20200721_095347\\Pro_Acc\\20200721_095347\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Group10 - Group10-PC"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="7.6.1.205"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.43.206"/>
+         <property name="sessionId" value="caaec6b3f2888d5686c63b7167676d2e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Tc_Admin/TC_Login" time="63.682" classname="Test Cases/Tc_Admin/TC_Login" status="PASSED">
+         <system-out><![CDATA[2020-07-21 09:53:59 - [TEST_CASE][PASSED] - Test Cases/Tc_Admin/TC_Login: Test Cases/Tc_Admin/TC_Login
+
+2020-07-21 09:53:59 - [TEST_STEP][PASSED] - runWithCucumberRunner(testRunner.Login_Runner): Run with 'testRunner.Login_Runner' was passed
+
+2020-07-21 09:54:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-07-21 09:54:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-07-21 09:54:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-07-21 09:54:22 - [MESSAGE][PASSED] - Current window maximized
+
+2020-07-21 09:54:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-07-21 09:54:31 - [MESSAGE][PASSED] - Navigate to 'http://123.176.34.15:4041/ProAccQA' successfully
+
+2020-07-21 09:54:34 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Username'
+
+2020-07-21 09:54:35 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Password'
+
+2020-07-21 09:54:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-07-21 09:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Login/button_Login' is clicked on
+
+2020-07-21 09:54:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-21 09:54:57 - [MESSAGE][PASSED] - Text 'Dashboard' is present on page 
+
+2020-07-21 09:55:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-07-21 09:55:03 - [MESSAGE][PASSED] - Run with 'testRunner.Login_Runner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-21 09:53:58 - [TEST_SUITE][PASSED] - Pro_Acc: Test Cases/Tc_Admin/TC_Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
