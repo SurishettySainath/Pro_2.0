@@ -17,42 +17,6 @@
       <testCaseId>Test Cases/Tc_Admin/TC_Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>97eb5ca5-5a84-48ce-a4fb-44716223274c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Tc_Admin/TC_CreateCustomer</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ee8551ec-8510-47fb-81c5-03e835c8335a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Tc_Admin/TC_ViewCustomer</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>54b73637-26b6-468d-90bc-a3be27efd241</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Tc_Admin/TC_CreateUser</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>592335a7-b74a-4016-bbff-cb26cf7f21b4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Tc_Admin/TC_CreateProject</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4ee07b66-d663-461f-b83d-a19f68f25fbb</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Tc_Admin/TC_CreateInstance</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>27d513a2-2aa3-4ae2-814d-1273a8b2422c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Tc_Admin/TC_ActivityCreation</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>333d8929-d375-42b5-9dd1-b9f046aeeca9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
