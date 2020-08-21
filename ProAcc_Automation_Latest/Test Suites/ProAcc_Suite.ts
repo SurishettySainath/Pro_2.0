@@ -9,12 +9,11 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>164dd3fa-779f-4a3b-a569-817caaa00a82</testSuiteGuid>
    <testCaseLink>
       <guid>1c1ffbf1-290c-4eec-a112-0299be3ea4bc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Tc_Admin/TC_Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -110,7 +109,7 @@
    <testCaseLink>
       <guid>815d5768-736c-4127-9465-a04c5bdf5ca9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Tc_PM/TC_DashBoard</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

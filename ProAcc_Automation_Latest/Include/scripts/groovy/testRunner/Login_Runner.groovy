@@ -51,10 +51,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "Include/features/proAcc_Featurefile/Common/Login.feature",glue="",
-plugin = ["pretty",
+/*plugin = ["pretty",
 	"junit:MyReports/LoginReport.xml",
 	"html:MyReports/LoginReport.html",
-	"json:MyReports/Login.json"],
+	"json:MyReports/Login.json"],*/
 tags=['@SmokeTest'] )
 class Login_Runner {
 }
