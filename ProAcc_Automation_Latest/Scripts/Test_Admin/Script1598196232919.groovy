@@ -23,7 +23,7 @@ WebUI.delay(5)
 WebUI.navigateToUrl("http://123.176.34.15:4041/ProAccQA")
 
 println "Testing admin module"
-
+//WebUI.getText(null)
 WebUI.setText(findTestObject('Object Repository/Pro_Acc_Login/input_Login_Username'), "Admin")
 WebUI.setText(findTestObject('Object Repository/Pro_Acc_Login/input_Login_Password'), "Admin")
 WebUI.click(findTestObject('Object Repository/Pro_Acc_Login/button_Login'))

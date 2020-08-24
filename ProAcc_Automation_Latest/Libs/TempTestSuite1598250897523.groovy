@@ -32,8 +32,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\gitprojects\\Pro_2.0\\ProAcc_Automation_Latest\\Reports\\20200823_202319\\ProAcc_Suite\\20200823_202319\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\gitprojects\\Pro_2.0\\ProAcc_Automation_Latest\\Reports\\20200824_120457\\ProAcc_Suite\\20200824_120457\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/ProAcc_Suite', suiteProperties, new File("C:\\gitprojects\\Pro_2.0\\ProAcc_Automation_Latest\\Reports\\20200823_202319\\ProAcc_Suite\\20200823_202319\\testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/ProAcc_Suite', suiteProperties, new File("C:\\gitprojects\\Pro_2.0\\ProAcc_Automation_Latest\\Reports\\20200824_120457\\ProAcc_Suite\\20200824_120457\\testCaseBinding"))
