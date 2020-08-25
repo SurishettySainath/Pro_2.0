@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ProAcc_Suite" time="138.775" tests="1" failures="0" errors="0">
+   <testsuite name="ProAcc_Suite" tests="1" failures="0" errors="0" time="138.775" timestamp="2020-08-25 13:50:32" hostname="Group10 - Group10-PC" id="Test Suites/ProAcc_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\gitprojects\\Pro_2.0\\ProAcc_Automation_Latest\\Reports\\20200825_135000\\ProAcc_Suite\\20200825_135000"/>
+         <property name="logFiles" value="C:\\gitprojects\\Pro_2.0\\ProAcc_Automation_Latest\\Reports\\20200825_135000\\ProAcc_Suite\\20200825_135000\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Group10 - Group10-PC"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="7.6.1.205"/>
+         <property name="browser" value="Chrome 84.0.4147.135"/>
+         <property name="hostAddress" value="192.168.43.206"/>
+         <property name="sessionId" value="518f183ea5166d1a7b60de355fd25249"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Test_Admin" time="129.53" classname="Test Cases/Test_Admin" status="PASSED">
+         <system-out><![CDATA[2020-08-25 13:50:34 - [TEST_CASE][PASSED] - Test Cases/Test_Admin: Test Cases/Test_Admin
+
+2020-08-25 13:50:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-25 13:50:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-25 13:50:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-25 13:51:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-25 13:51:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-25 13:51:56 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-25 13:51:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-08-25 13:52:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-25 13:52:01 - [TEST_STEP][PASSED] - navigateToUrl("http://123.176.34.15:4041/ProAccQA"): Navigate to 'http://123.176.34.15:4041/ProAccQA' successfully
+
+2020-08-25 13:52:14 - [MESSAGE][PASSED] - Navigate to 'http://123.176.34.15:4041/ProAccQA' successfully
+
+2020-08-25 13:52:14 - [TEST_STEP][PASSED] - println("Testing admin module"): null
+
+2020-08-25 13:52:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Pro_Acc_Login/input_Login_Username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Username'
+
+2020-08-25 13:52:27 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Username'
+
+2020-08-25 13:52:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Pro_Acc_Login/input_Login_Password"), "Admin"): Text 'Admin' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Password'
+
+2020-08-25 13:52:28 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Pro_Acc_Login/input_Login_Password'
+
+2020-08-25 13:52:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Pro_Acc_Login/button_Login")): Object: 'Object Repository/Pro_Acc_Login/button_Login' is clicked on
+
+2020-08-25 13:52:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Pro_Acc_Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-25 13:50:32 - [TEST_SUITE][PASSED] - ProAcc_Suite: Test Cases/Test_Admin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
