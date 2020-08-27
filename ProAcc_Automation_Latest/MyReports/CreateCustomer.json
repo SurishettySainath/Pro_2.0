@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 17124014749,
+              "duration": 13995856179,
               "status": "passed"
             },
             "line": 13,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 3863713097,
+              "duration": 3776022601,
               "status": "passed"
             },
             "line": 14,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 7869792724,
+              "duration": 5638135469,
               "status": "passed"
             },
             "line": 15,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 6426027711,
+              "duration": 6398252152,
               "status": "passed"
             },
             "line": 16,
@@ -85,7 +85,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2701011680,
+              "duration": 5084191498,
               "status": "passed"
             },
             "line": 24,
@@ -103,7 +103,7 @@
           },
           {
             "result": {
-              "duration": 8721901249,
+              "duration": 9266068015,
               "status": "passed"
             },
             "line": 25,
@@ -129,7 +129,7 @@
           },
           {
             "result": {
-              "duration": 2366999015,
+              "duration": 2329608238,
               "status": "passed"
             },
             "line": 26,
@@ -141,7 +141,19 @@
           },
           {
             "result": {
-              "duration": 4204883961,
+              "duration": 87889060197,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User has to edit task for consultant",
+            "match": {
+              "location": "AssessmentMonitor_Consultant.user_has_to_edit_task_for_consultant()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3804741966,
               "status": "passed"
             },
             "line": 28,

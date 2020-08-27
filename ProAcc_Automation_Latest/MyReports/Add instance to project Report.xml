@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.199457">
-<testcase classname="Create Instance" name="Creating New Instance" time="20.199457">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="22.492935">
+<testcase classname="Create Instance" name="Creating New Instance" time="22.492935">
 <system-out><![CDATA[Given User is on create instance page.......................................passed
 When User has to enter instance nameT01.....................................passed
 And User has to select project from dropdownTin Pilot Phase Test............passed

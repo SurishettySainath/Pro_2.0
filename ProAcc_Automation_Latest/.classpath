@@ -141,20 +141,20 @@
 			<attribute name="javadoc_location" value="file:/C:/Users/Group10/Katalon%20Studio/Katalon_Studio_Windows_32-7.4.0/configuration/resources/apidocs/com.kms.katalon.core.testng/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/gitprojects/Pro_2.0/ProAcc_Automation_Latest/Drivers/bsh-2.0b4.jar"/>
-	<classpathentry kind="lib" path="C:/gitprojects/Pro_2.0/ProAcc_Automation_Latest/Drivers/bson-3.3.0.jar"/>
-	<classpathentry kind="lib" path="C:/gitprojects/Pro_2.0/ProAcc_Automation_Latest/Drivers/commons-codec-1.9.jar"/>
-	<classpathentry kind="lib" path="C:/gitprojects/Pro_2.0/ProAcc_Automation_Latest/Drivers/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/gitprojects/Pro_2.0/ProAcc_Automation_Latest/Drivers/extentreports-4.0.1.jar"/>
-	<classpathentry kind="lib" path="C:/gitprojects/Pro_2.0/ProAcc_Automation_Latest/Drivers/freemarker-2.3.23.jar"/>
-	<classpathentry kind="lib" path="C:/gitprojects/Pro_2.0/ProAcc_Automation_Latest/Drivers/gson-2.8.5.jar"/>
-	<classpathentry kind="lib" path="C:/gitprojects/Pro_2.0/ProAcc_Automation_Latest/Drivers/httpclient-4.5.2.jar"/>
-	<classpathentry kind="lib" path="C:/gitprojects/Pro_2.0/ProAcc_Automation_Latest/Drivers/httpcore-4.4.4.jar"/>
-	<classpathentry kind="lib" path="C:/gitprojects/Pro_2.0/ProAcc_Automation_Latest/Drivers/httpmime-4.5.2.jar"/>
-	<classpathentry kind="lib" path="C:/gitprojects/Pro_2.0/ProAcc_Automation_Latest/Drivers/jcommander-1.48.jar"/>
-	<classpathentry kind="lib" path="C:/gitprojects/Pro_2.0/ProAcc_Automation_Latest/Drivers/mongodb-driver-3.3.0.jar"/>
-	<classpathentry kind="lib" path="C:/gitprojects/Pro_2.0/ProAcc_Automation_Latest/Drivers/mongodb-driver-core-3.3.0.jar"/>
-	<classpathentry kind="lib" path="C:/gitprojects/Pro_2.0/ProAcc_Automation_Latest/Drivers/testng-6.9.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Group10/Desktop/Pro_Acc/ProAcc_Automation_DailyBuild/ProAcc_Automation_Latest/Drivers/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Group10/Desktop/Pro_Acc/ProAcc_Automation_DailyBuild/ProAcc_Automation_Latest/Drivers/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Group10/Desktop/Pro_Acc/ProAcc_Automation_DailyBuild/ProAcc_Automation_Latest/Drivers/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Group10/Desktop/Pro_Acc/ProAcc_Automation_DailyBuild/ProAcc_Automation_Latest/Drivers/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Group10/Desktop/Pro_Acc/ProAcc_Automation_DailyBuild/ProAcc_Automation_Latest/Drivers/extentreports-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Group10/Desktop/Pro_Acc/ProAcc_Automation_DailyBuild/ProAcc_Automation_Latest/Drivers/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Group10/Desktop/Pro_Acc/ProAcc_Automation_DailyBuild/ProAcc_Automation_Latest/Drivers/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Group10/Desktop/Pro_Acc/ProAcc_Automation_DailyBuild/ProAcc_Automation_Latest/Drivers/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Group10/Desktop/Pro_Acc/ProAcc_Automation_DailyBuild/ProAcc_Automation_Latest/Drivers/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Group10/Desktop/Pro_Acc/ProAcc_Automation_DailyBuild/ProAcc_Automation_Latest/Drivers/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Group10/Desktop/Pro_Acc/ProAcc_Automation_DailyBuild/ProAcc_Automation_Latest/Drivers/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Group10/Desktop/Pro_Acc/ProAcc_Automation_DailyBuild/ProAcc_Automation_Latest/Drivers/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Group10/Desktop/Pro_Acc/ProAcc_Automation_DailyBuild/ProAcc_Automation_Latest/Drivers/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Group10/Desktop/Pro_Acc/ProAcc_Automation_DailyBuild/ProAcc_Automation_Latest/Drivers/testng-6.9.10.jar"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

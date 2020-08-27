@@ -6,13 +6,13 @@
    <elementGuidId>307d8429-86e4-4b8f-a63f-9e6cdea35815</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Layout Options'])[1]/following::a[17]
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Layout Options'])[1]/following::a[16]
 
 </value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

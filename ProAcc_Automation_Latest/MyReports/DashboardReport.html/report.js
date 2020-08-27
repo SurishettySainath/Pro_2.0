@@ -120,21 +120,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User has to select project name and instance from dropdown list",
+  "name": "User has to select project name and instance from dropdown",
   "keyword": "When "
 });
 formatter.match({
-  "location": "Dashboard.user_has_to_select_project_name_and_instance_from_dropdown_list()"
+  "location": "Dashboard.user_has_to_select_project_name_and_instance_from_dropdown()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User has able to see the recent updates on task",
+  "name": "User has able to see the recent updates",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Dashboard.user_has_able_to_see_the_recent_updates_on_task()"
+  "location": "Dashboard.user_has_able_to_see_the_recent_updates()"
 });
 formatter.result({
   "status": "passed"

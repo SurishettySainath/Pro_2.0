@@ -17,7 +17,7 @@ Feature: Conversion Monitor for Consultant
 
     Examples: 
       | username | password |
-      | Arun     | a12345@  |
+      | seena     | a12345@  |
 
   @SmokeTest
   Scenario Outline: Assessment Monitor functionality for Consultant

@@ -169,15 +169,15 @@ class ResourceAllocation_StepDef {
 	@And("User should allocate owner(.*)for a particular task")
 	public void user_should_allocate_owner_for_a_particular_task(String Owneroftask) {
 		try{
-			//			String xpath_Upload_Site = "//*[@id='jqGrid']/tbody/tr"
-			//
-			//						 int rowCount_Upload_SMW_Site = (new OnlineKeywords()).countRowsPerPage(xpath_Upload_Site)
-			//
-			//						 println "rowCount :" +rowCount_Upload_SMW_Site
-			//
+			String xpath_Upload_Site = "//*[@id='jqGrid']/tbody/tr"
+
+			int rowCount_Upload_SMW_Site = (new OnlineKeywords()).countRowsPerPage(xpath_Upload_Site)
+
+			println "rowCount :" +rowCount_Upload_SMW_Site
+
 			//						 if (rowCount_Upload_SMW_Site  > 0){
 			WebUI.delay(3)
-			for (int k=2;k<=6;k++) {
+			for (int k=2;k<=rowCount_Upload_SMW_Site;k++) {
 
 
 				TestObject task = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//*[@id="jqGrid"]/tbody/tr['+k+']', true)
@@ -227,7 +227,7 @@ class ResourceAllocation_StepDef {
 			loginfo.assignCategory("Resource Allocation")
 
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User should allocate owner for a particular task").fail("fail").addScreenCaptureFromPath(new OnlineKeywords ().takeScreenshot(loginfo));
+			//	loginfo.createNode(new GherkinKeyword("And"), "User should allocate owner for a particular task").fail("fail").addScreenCaptureFromPath(new OnlineKeywords ().takeScreenshot(loginfo));
 		}
 	}
 

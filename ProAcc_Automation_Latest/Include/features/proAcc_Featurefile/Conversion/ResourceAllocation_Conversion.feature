@@ -29,4 +29,4 @@ Feature: Resource Allocation
 
     Examples: 
       | ProjectnameforResourceAllocation | InstancenameforResourceAllocation | Owneroftask | Phases     |
-      | Tin Pilot Phase Test             | T01                               | arun        | Conversion |
+      | Tin Pilot Phase Test             | T01                               | seena        | Conversion |

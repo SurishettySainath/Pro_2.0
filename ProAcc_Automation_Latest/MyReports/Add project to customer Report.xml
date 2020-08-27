@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.792304">
-<testcase classname="Project Creation" name="Creating new Project" time="23.792304">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="26.561689">
+<testcase classname="Project Creation" name="Creating new Project" time="26.561689">
 <system-out><![CDATA[Given User is on Project Creation page......................................passed
 When User has to enter project nameTin Pilot Phase Test.....................passed
 And User has to enter project descriptionPro acc Inprogress.................passed

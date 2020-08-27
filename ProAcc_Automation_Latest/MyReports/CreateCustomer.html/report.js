@@ -122,6 +122,10 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
+  "name": "User has to edit task for consultant",
+  "keyword": "And "
+});
+formatter.step({
   "name": "User should select instance successfully for Assessment Monitor Consultant",
   "keyword": "Then "
 });
@@ -184,6 +188,16 @@ formatter.step({
 });
 formatter.match({
   "location": "AssessmentMonitor_Consultant.user_has_to_click_on_select_instance_button_for_Consultant_Assessment_Monitor()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User has to edit task for consultant",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AssessmentMonitor_Consultant.user_has_to_edit_task_for_consultant()"
 });
 formatter.result({
   "status": "passed"

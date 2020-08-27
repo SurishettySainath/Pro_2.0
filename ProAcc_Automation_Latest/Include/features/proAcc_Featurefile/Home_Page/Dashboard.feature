@@ -24,5 +24,5 @@ Feature: To view all the details
   @SmokeTest
   Scenario: 
     Given User is on dashboard page
-    When User has to select project name and instance from dropdown list
-    Then User has able to see the recent updates on task
+    When User has to select project name and instance from dropdown
+    Then User has able to see the recent updates

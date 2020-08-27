@@ -101,21 +101,21 @@ class ActivityCreation_StepDef {
 	public void user_has_to_fill_the_fields_like_Task_Sequence_ApplicationArea_Phase_and_Role(String Task,String ApplicationArea,String Phase,String Role,String BuildingBlock,String EstHrs) {
 		try{
 			WebUI.setText(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_ActivityCreation/input_Task'), Task)
-		//	WebUI.click(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_ActivityCreation/input_ApplicationArea'))
+			//	WebUI.click(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_ActivityCreation/input_ApplicationArea'))
 
 			WebUI.selectOptionByLabel(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_ActivityCreation/input_ApplicationArea'), ApplicationArea, true)
-		//	WebUI.click(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_ActivityCreation/select_Select Phase'))
+			//	WebUI.click(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_ActivityCreation/select_Select Phase'))
 			WebUI.selectOptionByLabel(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_ActivityCreation/select_Select Phase'),Phase, true)
-		//	WebUI.click(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_ActivityCreation/select_Select Role'))
+			//	WebUI.click(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_ActivityCreation/select_Select Role'))
 			WebUI.selectOptionByLabel(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_ActivityCreation/select_Select Role'),Role, true)
-			
+
 			// Building block
 			WebUI.click(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_ActivityCreation/Select_BuildingBlock'))
 			WebUI.selectOptionByLabel(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_ActivityCreation/Select_BuildingBlock'),BuildingBlock, true)
 			//Est Hrs
 			WebUI.click(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_ActivityCreation/SelectEstHrs'))
 			WebUI.setText(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_ActivityCreation/SelectEstHrs'), EstHrs)
-			
+
 			loginfo.createNode(new GherkinKeyword("When"), "User has to fill the fields like Task,ApplicationArea,Phase,Role,Building blocks").pass("pass");
 			Assert.assertTrue(true);
 			loginfo.assignCategory("Activity State")
@@ -159,10 +159,10 @@ class ActivityCreation_StepDef {
 			//if(text.contains(Customer_search)) {
 			//String text = "Customer_search"
 			if(text.equalsIgnoreCase(Activitysearch)){
-			println("ActivitySearch is verified :) ")
+				println("ActivitySearch is verified :) ")
 			}
-			 else {
-			  println("Sorry, ActivitySearch is not verified :( ")
+			else {
+				println("Sorry, ActivitySearch is not verified :( ")
 			}
 			loginfo.createNode(new GherkinKeyword("Then"), "User can search for created activity in list").pass("pass");
 			Assert.assertTrue(true);

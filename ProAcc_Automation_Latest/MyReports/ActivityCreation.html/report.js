@@ -49,7 +49,7 @@ formatter.examples({
     {
       "cells": [
         "Alexa Custom Code Assessment",
-        "Technical - ABAP",
+        "Functional - All",
         "Assessment",
         "Functional",
         "Alexa Custom Code Assessment",
@@ -60,7 +60,7 @@ formatter.examples({
     {
       "cells": [
         "Alexa Custom Code Pre_Conversion",
-        "Functional / Technical",
+        "Functional - All",
         "Pre Conversion",
         "Functional",
         "Alexa Custom Code Pre_Conversion",
@@ -71,23 +71,23 @@ formatter.examples({
     {
       "cells": [
         "Alexa Custom Code Conversion",
-        "Technical - Security",
+        "Technical - BASIS",
         "Conversion",
         "BASIS",
         "Alexa Custom Code Conversion",
-        "Custom Adoption",
+        "Custom Code",
         "12:34"
       ]
     },
     {
       "cells": [
         "Alexa Custom Code Post_Conversion",
-        "Functional - All / PMO",
+        "Functional - All",
         "Post Conversion",
         "Functional",
         "Alexa Custom Code Post_Conversion",
         "Application Overview",
-        "45:32"
+        "34:32"
       ]
     }
   ]
@@ -113,7 +113,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User has to fill the fields like TaskAlexa Custom Code Assessment,ApplicationAreaTechnical - ABAP,PhaseAssessment,RoleFunctional,BuildingBlockApplication Overview,Est Hrs10:43",
+  "name": "User has to fill the fields like TaskAlexa Custom Code Assessment,ApplicationAreaFunctional - All,PhaseAssessment,RoleFunctional,BuildingBlockApplication Overview,Est Hrs10:43",
   "keyword": "When "
 });
 formatter.match({
@@ -163,7 +163,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User has to fill the fields like TaskAlexa Custom Code Pre_Conversion,ApplicationAreaFunctional / Technical,PhasePre Conversion,RoleFunctional,BuildingBlockData Consistency Verification,Est Hrs11:34",
+  "name": "User has to fill the fields like TaskAlexa Custom Code Pre_Conversion,ApplicationAreaFunctional - All,PhasePre Conversion,RoleFunctional,BuildingBlockData Consistency Verification,Est Hrs11:34",
   "keyword": "When "
 });
 formatter.match({
@@ -213,7 +213,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User has to fill the fields like TaskAlexa Custom Code Conversion,ApplicationAreaTechnical - Security,PhaseConversion,RoleBASIS,BuildingBlockCustom Adoption,Est Hrs12:34",
+  "name": "User has to fill the fields like TaskAlexa Custom Code Conversion,ApplicationAreaTechnical - BASIS,PhaseConversion,RoleBASIS,BuildingBlockCustom Code,Est Hrs12:34",
   "keyword": "When "
 });
 formatter.match({
@@ -263,7 +263,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User has to fill the fields like TaskAlexa Custom Code Post_Conversion,ApplicationAreaFunctional - All / PMO,PhasePost Conversion,RoleFunctional,BuildingBlockApplication Overview,Est Hrs45:32",
+  "name": "User has to fill the fields like TaskAlexa Custom Code Post_Conversion,ApplicationAreaFunctional - All,PhasePost Conversion,RoleFunctional,BuildingBlockApplication Overview,Est Hrs34:32",
   "keyword": "When "
 });
 formatter.match({

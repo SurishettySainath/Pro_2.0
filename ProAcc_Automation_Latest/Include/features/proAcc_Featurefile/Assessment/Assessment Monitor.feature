@@ -29,4 +29,4 @@ Feature: Assessment Monitor
 
     Examples: 
       | ProjectnameforAssessment | InstancenameforAssessment | EstDuration | ActDuration | Note             |
-      | Alexa Pilot Phase Test   | T01                       |           3 |           5 | Work In Progress |
+      | Tin Pilot Phase Test   | T01                       |           3 |           5 | Work In Progress |
