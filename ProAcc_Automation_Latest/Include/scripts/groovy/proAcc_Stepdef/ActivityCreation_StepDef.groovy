@@ -155,15 +155,9 @@ class ActivityCreation_StepDef {
 			WebUI.delay(3)
 			WebUI.setText(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_ActivityCreation/input_SearchActivity'), Activitysearch)
 			WebUI.delay(3)
-			String text = WebUI.getText(findTestObject('Object Repository/Pro_Acc_UserSettings/Pro_Acc_Create Customer/verify_customer'))
+			WebUI.getText(findTestObject('Object Repository/Pro_Acc_UserSettings/Pro_Acc_Create Customer/verify_customer'))
 			//if(text.contains(Customer_search)) {
 			//String text = "Customer_search"
-			if(text.equalsIgnoreCase(Activitysearch)){
-				println("ActivitySearch is verified :) ")
-			}
-			else {
-				println("Sorry, ActivitySearch is not verified :( ")
-			}
 			loginfo.createNode(new GherkinKeyword("Then"), "User can search for created activity in list").pass("pass");
 			Assert.assertTrue(true);
 			loginfo.assignCategory("Activity State")

@@ -205,8 +205,13 @@ class AssessmentMonitor_Consultant {
 
 
 			WebUI.delay(2)
-
-			for (int k=1;k<=5;k++) {
+			String xpath_Upload_Site = "//*[@id='jqGrid']/tbody/tr"
+			 
+						 int rowCount_Upload_SMW_Site = (new OnlineKeywords()).countRowsPerPage(xpath_Upload_Site)
+			 
+						 println "rowCount :" +rowCount_Upload_SMW_Site
+			 
+			for (int k=1;k<=rowCount_Upload_SMW_Site-1;k++) {
 
 				//								TestObject task = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//*[@id="jqGrid"]/tbody/tr['+k+']', true)
 				//								WebUI.delay(5)
@@ -289,7 +294,7 @@ class AssessmentMonitor_Consultant {
 			loginfo.assignCategory("Assessment Monitor for Consultant")
 
 		} catch   (Exception e){
-		//	loginfo.createNode(new GherkinKeyword("Then"), "User should select instance successfully for Assessment Monitor for Consultant").fail("fail").addScreenCaptureFromPath(new OnlineKeywords ().takeScreenshot(loginfo));
+				loginfo.createNode(new GherkinKeyword("Then"), "User should select instance successfully for Assessment Monitor for Consultant").fail("fail").addScreenCaptureFromPath(new OnlineKeywords ().takeScreenshot(loginfo));
 		}
 	}
 }

@@ -136,7 +136,3 @@ formatter.step({
 formatter.match({
   "location": "Dashboard.user_has_able_to_see_the_recent_updates()"
 });
-formatter.result({
-  "status": "passed"
-});
-});

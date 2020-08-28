@@ -43,7 +43,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "Tin_Consultant",
+        "sainath",
         "a12345@"
       ]
     }
@@ -70,7 +70,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enters Tin_Consultant and a12345@",
+  "name": "User enters sainath and a12345@",
   "keyword": "And "
 });
 formatter.match({
@@ -144,9 +144,9 @@ formatter.examples({
     },
     {
       "cells": [
-        "Tin Test",
-        "Tin Pilot Phase Test",
-        "T01",
+        "Lego",
+        "USGBC",
+        "U01",
         "Assessment"
       ]
     }
@@ -173,7 +173,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User has to select Consultant CustomernameTin Test and Project NameTin Pilot Phase Test and Consultant Instance NameT01 from the dropdown for consultant Assessment Monitor",
+  "name": "User has to select Consultant CustomernameLego and Project NameUSGBC and Consultant Instance NameU01 from the dropdown for consultant Assessment Monitor",
   "keyword": "When "
 });
 formatter.match({
