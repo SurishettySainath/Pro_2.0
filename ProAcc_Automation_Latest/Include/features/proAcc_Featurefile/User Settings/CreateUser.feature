@@ -20,4 +20,4 @@ Feature: Create User Functionality
       | Tin_Admin      | GlobalVariable.useradmin          | GlobalVariable.passwordadmin          | GlobalVariable.passwordadmin          | Test@Promantus.com |  8976543210 | Admin           |            |          |
       | Tin_PM         | GlobalVariable.userprojectmanager | GlobalVariable.passwordprojectmanager | GlobalVariable.passwordprojectmanager | Test@Promantus.com |  8976543210 | Project Manager |            |          |
       | Tin_Consultant | GlobalVariable.userconsultant     | GlobalVariable.passwordconsultant     | GlobalVariable.passwordconsultant     | Test@Promantus.com |  8976543210 | Consultant      | Functional |          |
-      | Tin_Customer   | GlobalVariable.uc                 | GlobalVariable.pc                     | GlobalVariable.pc                     | Test@Promantus.com |  8976543210 | Customer        | Functional | Tin Test |
+      | Bin_Customer   | GlobalVariable.uc                 | GlobalVariable.pc                     | GlobalVariable.pc                     | Test@Promantus.com |  8976543210 | Customer        | Functional | Tin Test |

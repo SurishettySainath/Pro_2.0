@@ -67,12 +67,7 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object userconsultant_Abap
-     
-    /**
-     * <p></p>
-     */
-    public static Object userconsultant_Functional
+    public static Object Customer
      
 
     static {
@@ -92,8 +87,7 @@ public class GlobalVariable {
             passwordconsultant = selectedVariables['passwordconsultant']
             useradmin = selectedVariables['useradmin']
             passwordadmin = selectedVariables['passwordadmin']
-            userconsultant_Abap = selectedVariables['userconsultant_Abap']
-            userconsultant_Functional = selectedVariables['userconsultant_Functional']
+            Customer = selectedVariables['Customer']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

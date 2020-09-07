@@ -153,7 +153,7 @@ class CreateAnalysisStepDef {
 			String path5 = RunConfiguration.getProjectDir() +'/Include/Pro Acc Input file/RelevantSimplificationItems.xlsx'
 			WebUI.uploadFile(findTestObject('Object Repository/Pro_Acc_Assessment/Pro_Acc_CreateAnalysis/input_Relevant Simplification Items_files'), path5)
 			WebUI.delay(2)
-			String path6 = RunConfiguration.getProjectDir() +'/Include/Pro Acc Input file/SAP Readiness Check.docx'
+			String path6 = RunConfiguration.getProjectDir() +'/Include/Pro Acc Input file/SAP Readiness Check.pdf'
 			WebUI.uploadFile(findTestObject('Object Repository/Pro_Acc_Assessment/Pro_Acc_CreateAnalysis/input_SAP Readiness Check_files'), path6)
 
 

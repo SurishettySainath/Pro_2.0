@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Tin_Customer'</initValue>
+      <initValue>'Bin_Customer'</initValue>
       <name>uc</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -61,12 +61,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Arun'</initValue>
-      <name>userconsultant_Abap</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Sasi'</initValue>
-      <name>userconsultant_Functional</name>
+      <initValue>'Tin Test'</initValue>
+      <name>Customer</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

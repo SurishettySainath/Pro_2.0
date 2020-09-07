@@ -58,4 +58,4 @@ tags=['@SmokeTest'] )
 
 
 class RoleCreation_Runner {
-	}
+}

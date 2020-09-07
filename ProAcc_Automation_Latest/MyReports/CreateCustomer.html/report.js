@@ -1,6 +1,6 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Include/features/proAcc_Featurefile/Post_Conversion/PostConversionMonitor_Consultant.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Include/features/proAcc_Featurefile/PreConversion/PreConversionMonitor_Consultant.feature");
 formatter.feature({
-  "name": "Post-Conversion functionality for ProAcc",
+  "name": "Pre-Conversion Monitor for Consultant",
   "description": "",
   "keyword": "Feature"
 });
@@ -147,7 +147,7 @@ formatter.examples({
         "Tin Test",
         "Tin Pilot Phase Test",
         "T01",
-        "Post-Conversion"
+        "Pre-Conversion"
       ]
     }
   ]
@@ -163,7 +163,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "User is on Consultant Monitor pagePost-Conversion",
+  "name": "User is on Consultant Monitor pagePre-Conversion",
   "keyword": "Given "
 });
 formatter.match({

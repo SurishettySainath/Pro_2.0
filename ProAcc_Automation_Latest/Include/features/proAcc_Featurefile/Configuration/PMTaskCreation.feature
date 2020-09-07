@@ -9,17 +9,6 @@
 Feature: PMTaskCreation
 
   @SmokeTest
-  Scenario Outline: Login to application
-    Given User should navigate to ProAcc page
-    And User enters <username> and <password>
-    When User clicks on LOG IN button
-    Then User will be logged in successfully
-
-    Examples: 
-      | username                | password                |
-      | GlobalVariable.userName | GlobalVariable.password |
-
-  @SmokeTest
   Scenario Outline: Creating new task for Project Manager
     Given User is on PM Task Creation page
     When User has to select task category<TaskCategory>
@@ -29,4 +18,4 @@ Feature: PMTaskCreation
 
     Examples: 
       | TaskCategory | TaskName |
-      | Plan Project | data1    |
+      | Plan Project | D011     |

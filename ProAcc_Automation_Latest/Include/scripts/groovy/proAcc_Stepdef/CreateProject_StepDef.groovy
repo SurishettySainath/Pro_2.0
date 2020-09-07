@@ -198,9 +198,9 @@ class Addprojecttocustomer {
 		try{
 			WebUI.delay(3)
 			WebUI.setText(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_CreateProject/input_SearchProject'), projectname)
-		 //WebUI.getText(findTestObject('Object Repository/Pro_Acc_UserSettings/Pro_Acc_Create Customer/verify_customer'))
+			//WebUI.getText(findTestObject('Object Repository/Pro_Acc_UserSettings/Pro_Acc_Create Customer/verify_customer'))
 			//if(text.contains(Customer_search)) {
-			//String text = "Customer_search"			
+			//String text = "Customer_search"
 			loginfo.createNode(new GherkinKeyword("Then"), "User can search for created project in list").pass("pass");
 			Assert.assertTrue(true);
 			loginfo.assignCategory("Project Creation")

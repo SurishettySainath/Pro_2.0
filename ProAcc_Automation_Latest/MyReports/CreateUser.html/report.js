@@ -89,7 +89,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "Tin_Customer",
+        "Bin_Customer",
         "GlobalVariable.uc",
         "GlobalVariable.pc",
         "GlobalVariable.pc",
@@ -273,7 +273,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User has to fill the fields like NameTin_Customer,LoginIDGlobalVariable.uc,PasswordGlobalVariable.pc,ConfirmpasswordGlobalVariable.pc,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeCustomer,RoleFunctional,CustomerTin Test",
+  "name": "User has to fill the fields like NameBin_Customer,LoginIDGlobalVariable.uc,PasswordGlobalVariable.pc,ConfirmpasswordGlobalVariable.pc,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeCustomer,RoleFunctional,CustomerTin Test",
   "keyword": "When "
 });
 formatter.match({

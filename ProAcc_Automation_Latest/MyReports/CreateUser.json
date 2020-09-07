@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 26781796105,
+              "duration": 24721374936,
               "status": "passed"
             },
             "line": 13,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 21076994476,
+              "duration": 21129035626,
               "status": "passed"
             },
             "line": 14,
@@ -74,7 +74,7 @@
           },
           {
             "result": {
-              "duration": 11569943153,
+              "duration": 7287208488,
               "status": "passed"
             },
             "line": 15,
@@ -86,7 +86,7 @@
           },
           {
             "result": {
-              "duration": 737641,
+              "duration": 750129,
               "status": "passed"
             },
             "line": 16,
@@ -113,7 +113,7 @@
         "steps": [
           {
             "result": {
-              "duration": 28881361597,
+              "duration": 25000145475,
               "status": "passed"
             },
             "line": 13,
@@ -125,7 +125,7 @@
           },
           {
             "result": {
-              "duration": 21080479194,
+              "duration": 21011616963,
               "status": "passed"
             },
             "line": 14,
@@ -175,7 +175,7 @@
           },
           {
             "result": {
-              "duration": 9618407917,
+              "duration": 8145195313,
               "status": "passed"
             },
             "line": 15,
@@ -187,7 +187,7 @@
           },
           {
             "result": {
-              "duration": 672043,
+              "duration": 916577,
               "status": "passed"
             },
             "line": 16,
@@ -214,7 +214,7 @@
         "steps": [
           {
             "result": {
-              "duration": 25042524812,
+              "duration": 24315947678,
               "status": "passed"
             },
             "line": 13,
@@ -226,7 +226,7 @@
           },
           {
             "result": {
-              "duration": 24051738410,
+              "duration": 22752518912,
               "status": "passed"
             },
             "line": 14,
@@ -276,7 +276,7 @@
           },
           {
             "result": {
-              "duration": 12852587790,
+              "duration": 8258170318,
               "status": "passed"
             },
             "line": 15,
@@ -288,7 +288,7 @@
           },
           {
             "result": {
-              "duration": 931311,
+              "duration": 678285,
               "status": "passed"
             },
             "line": 16,
@@ -315,7 +315,7 @@
         "steps": [
           {
             "result": {
-              "duration": 25718097019,
+              "duration": 24550927800,
               "status": "passed"
             },
             "line": 13,
@@ -327,15 +327,15 @@
           },
           {
             "result": {
-              "duration": 24006041696,
+              "duration": 24246850550,
               "status": "passed"
             },
             "line": 14,
-            "name": "User has to fill the fields like NameTin_Customer,LoginIDGlobalVariable.uc,PasswordGlobalVariable.pc,ConfirmpasswordGlobalVariable.pc,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeCustomer,RoleFunctional,CustomerTin Test",
+            "name": "User has to fill the fields like NameBin_Customer,LoginIDGlobalVariable.uc,PasswordGlobalVariable.pc,ConfirmpasswordGlobalVariable.pc,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeCustomer,RoleFunctional,CustomerTin Test",
             "match": {
               "arguments": [
                 {
-                  "val": "Tin_Customer",
+                  "val": "Bin_Customer",
                   "offset": 37
                 },
                 {
@@ -377,7 +377,7 @@
           },
           {
             "result": {
-              "duration": 4510438314,
+              "duration": 7367100159,
               "status": "passed"
             },
             "line": 15,
@@ -389,7 +389,7 @@
           },
           {
             "result": {
-              "duration": 1611387,
+              "duration": 767087,
               "status": "passed"
             },
             "line": 16,

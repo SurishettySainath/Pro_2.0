@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="287.294603">
-<testcase classname="Resource Allocation" name="Login to application" time="112.416281">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="99.903945">
+<testcase classname="Resource Allocation" name="Login to application" time="40.118035">
 <system-out><![CDATA[Given User should navigate to ProAcc page...................................passed
 And User enters Tin_PM and a12345@..........................................passed
 When User clicks on LOG IN button...........................................passed
 Then User will be logged in successfully....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Resource Allocation" name="Resource Allocation functionality" time="174.878322">
+<testcase classname="Resource Allocation" name="Resource Allocation functionality" time="59.78591">
 <system-out><![CDATA[Given User is on Resource Allocation pageAssessment.........................passed
 When User has to select Project NameTin Pilot Phase Test and Instance NameT01 from the dropdown for Resource Allocation.passed
 And User has to click on select instance button for Resource Allocation.....passed
