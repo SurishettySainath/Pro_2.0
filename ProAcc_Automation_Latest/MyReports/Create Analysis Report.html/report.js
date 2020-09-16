@@ -43,7 +43,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "Tin_Consultant",
+        "Harry_Consultant",
         "a12345@"
       ]
     }
@@ -70,7 +70,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enters Tin_Consultant and a12345@",
+  "name": "User enters Harry_Consultant and a12345@",
   "keyword": "And "
 });
 formatter.match({
@@ -130,7 +130,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "name": "User should start analysis successfully",
+  "name": "User should successfully navigate to readinesscheck",
   "keyword": "Then "
 });
 formatter.examples({
@@ -154,9 +154,9 @@ formatter.examples({
     },
     {
       "cells": [
-        "Tin Test",
-        "Tin Pilot Phase Test",
-        "T01",
+        "Harry Test",
+        "Harry Pilot Phase Test",
+        "H01",
         "Activities.xlsx",
         "Bwextractors.xlsx",
         "CustomCode.xlsx",
@@ -189,7 +189,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User has to select Customer NameTin Test, Project NameTin Pilot Phase Test and Instance NameT01 from the dropdown",
+  "name": "User has to select Customer NameHarry Test, Project NameHarry Pilot Phase Test and Instance NameH01 from the dropdown",
   "keyword": "When "
 });
 formatter.match({
@@ -229,11 +229,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User should start analysis successfully",
+  "name": "User should successfully navigate to readinesscheck",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "CreateAnalysisStepDef.user_should_start_analysis_successfully()"
+  "location": "CreateAnalysisStepDef.User_should_successfully_navigate_to_readinesscheck()"
 });
 formatter.result({
   "status": "passed"

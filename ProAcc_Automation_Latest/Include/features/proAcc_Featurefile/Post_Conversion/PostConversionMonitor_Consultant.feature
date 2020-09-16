@@ -16,8 +16,8 @@ Feature: Post-Conversion functionality for ProAcc
     Then User will be logged in successfully
 
     Examples: 
-      | username       | password |
-      | Tin_Consultant | a12345@  |
+      | username         | password |
+      | Harry_Consultant | a12345@  |
 
   @SmokeTest
   Scenario Outline: Assessment Monitor functionality for Consultant
@@ -29,4 +29,4 @@ Feature: Post-Conversion functionality for ProAcc
 
     Examples: 
       | CustomernameforAssessmentConsultant | ProjectnameforAssessmentConsultant | InstancenameforAssessmentConsultant | Phases          |
-      | Tin Test                            | Tin Pilot Phase Test               | T01                                 | Post-Conversion |
+      | Harry Test                          | Harry Pilot Phase Test             | H01                                 | Post-Conversion |

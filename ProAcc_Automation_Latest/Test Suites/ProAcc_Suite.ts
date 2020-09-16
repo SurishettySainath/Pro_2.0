@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>1c1ffbf1-290c-4eec-a112-0299be3ea4bc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Tc_Admin/TC_Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -44,7 +44,7 @@
    <testCaseLink>
       <guid>94b55ed8-0066-4712-b8fc-3fa40e3a54a6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Tc_Admin/TC_PMTaskCreation</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -86,7 +86,7 @@
    <testCaseLink>
       <guid>a7433913-9fca-4b25-84cc-2a36a21c427c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Tc_Consultant/TC_PreConversionMonitor_Consultant</testCaseId>
    </testCaseLink>
    <testCaseLink>

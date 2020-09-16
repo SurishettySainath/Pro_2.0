@@ -110,7 +110,7 @@ class ViewCustomer_StepDef {
 			WebUI.sendKeys(findTestObject('Pro_Acc_UserSettings/Pro_Acc_Customer List/Search'),
 					Keys.chord(Keys.ENTER))
 			WebUI.delay(5)
-			WebUI.click(findTestObject('Object Repository/Pro_Acc_UserSettings/Pro_Acc_Create Customer/a_User Settings'))
+			//WebUI.click(findTestObject('Object Repository/Pro_Acc_UserSettings/Pro_Acc_Create Customer/a_User Settings'))
 			loginfo.createNode(new GherkinKeyword("When"), "User can search for the customer in customer search box").pass("pass");
 			Assert.assertTrue(true);
 			loginfo.assignCategory("Customer")
@@ -125,12 +125,15 @@ class ViewCustomer_StepDef {
 	@Then("User can see the created customer in the list(.*)")
 	public void user_can_see_the_created_customer_in_the_list(String Customer_search) {
 		try{
-			//String text = Customer_search
-			//	WebUI.setText(findTestObject('Pro_Acc_UserSettings/Pro_Acc_Customer List/Search'),
-			//		Customer_search)
-			//  WebUI.getText(findTestObject('Object Repository/Pro_Acc_UserSettings/Pro_Acc_Create Customer/verify_customer'))
-			//if(text.contains(Customer_search)) {
-			//String text = "Customer_search"
+			String text = WebUI.getText(findTestObject('Object Repository/Pro_Acc_UserSettings/Pro_Acc_Create Customer/verify_customer'))
+			if(text.equalsIgnoreCase(Customer_search)){
+				println("User is verified :) ")
+			}
+			else {
+				println("Sorry, User is not verified :( ")
+			}
+			WebUI.click(findTestObject('Object Repository/Pro_Acc_UserSettings/Pro_Acc_Create Customer/a_User Settings'))
+
 			loginfo.createNode(new GherkinKeyword("Then"), "User can see the created customer in the list").pass("pass");
 			Assert.assertTrue(true);
 			loginfo.assignCategory("Customer")
@@ -140,6 +143,5 @@ class ViewCustomer_StepDef {
 
 
 		}
-		//WebUI.verifyTextPresent("Marks", false)
 	}
 }

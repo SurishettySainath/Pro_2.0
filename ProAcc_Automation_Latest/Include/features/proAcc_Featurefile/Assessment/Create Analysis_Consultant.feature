@@ -16,8 +16,8 @@ Feature: Create Analysis
     Then User will be logged in successfully
 
     Examples: 
-      | username        | password |
-      | Tin_Consultant | a12345@  |
+      | username         | password |
+      | Harry_Consultant | a12345@  |
 
   @SmokeTest
   Scenario Outline: Create Analysis functionality
@@ -26,8 +26,8 @@ Feature: Create Analysis
     And User has to upload SAP READINESS CHECK FILES for Activities<Activities>, BWExtractors<BWExtractors>, CustomCode<CustomCode>, HANADatabase<HANADatabase>, FioriApps<FioriApps>, RelevantSimplification<RelevantSimplification>, SAPReadiness<SAPReadiness>
     And User has to click on the term of use and acknowldge checkboxes
     And User has to click on start analysis button
-    Then User should start analysis successfully
+    Then User should successfully navigate to readinesscheck
 
     Examples: 
-      | Customer_Name | Project_Name         | Instance_Name | Activities      | BWExtractors      | CustomCode      | HANADatabase            | FioriApps                 | RelevantSimplification           | SAPReadiness             |
-      | Tin Test      | Tin Pilot Phase Test | T01           | Activities.xlsx | Bwextractors.xlsx | CustomCode.xlsx | HanaDatabaseTables.xlsx | RecommendedFioriApps.xlsx | RelevantSimplificationItems.xlsx | SAP Readiness Check.docx |
+      | Customer_Name | Project_Name           | Instance_Name | Activities      | BWExtractors      | CustomCode      | HANADatabase            | FioriApps                 | RelevantSimplification           | SAPReadiness             |
+      | Harry Test    | Harry Pilot Phase Test | H01           | Activities.xlsx | Bwextractors.xlsx | CustomCode.xlsx | HanaDatabaseTables.xlsx | RecommendedFioriApps.xlsx | RelevantSimplificationItems.xlsx | SAP Readiness Check.docx |

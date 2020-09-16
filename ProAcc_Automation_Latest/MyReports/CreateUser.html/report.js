@@ -50,7 +50,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "Tin_Admin",
+        "Harry_Admin",
         "GlobalVariable.useradmin",
         "GlobalVariable.passwordadmin",
         "GlobalVariable.passwordadmin",
@@ -63,7 +63,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "Tin_PM",
+        "Harry_PM",
         "GlobalVariable.userprojectmanager",
         "GlobalVariable.passwordprojectmanager",
         "GlobalVariable.passwordprojectmanager",
@@ -76,7 +76,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "Tin_Consultant",
+        "Harry_Consultant",
         "GlobalVariable.userconsultant",
         "GlobalVariable.passwordconsultant",
         "GlobalVariable.passwordconsultant",
@@ -89,7 +89,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "Bin_Customer",
+        "Harry_Customer",
         "GlobalVariable.uc",
         "GlobalVariable.pc",
         "GlobalVariable.pc",
@@ -97,7 +97,7 @@ formatter.examples({
         "8976543210",
         "Customer",
         "Functional",
-        "Tin Test"
+        "Harry Test"
       ]
     }
   ]
@@ -123,7 +123,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User has to fill the fields like NameTin_Admin,LoginIDGlobalVariable.useradmin,PasswordGlobalVariable.passwordadmin,ConfirmpasswordGlobalVariable.passwordadmin,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeAdmin,Role,Customer",
+  "name": "User has to fill the fields like NameHarry_Admin,LoginIDGlobalVariable.useradmin,PasswordGlobalVariable.passwordadmin,ConfirmpasswordGlobalVariable.passwordadmin,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeAdmin,Role,Customer",
   "keyword": "When "
 });
 formatter.match({
@@ -173,7 +173,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User has to fill the fields like NameTin_PM,LoginIDGlobalVariable.userprojectmanager,PasswordGlobalVariable.passwordprojectmanager,ConfirmpasswordGlobalVariable.passwordprojectmanager,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeProject Manager,Role,Customer",
+  "name": "User has to fill the fields like NameHarry_PM,LoginIDGlobalVariable.userprojectmanager,PasswordGlobalVariable.passwordprojectmanager,ConfirmpasswordGlobalVariable.passwordprojectmanager,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeProject Manager,Role,Customer",
   "keyword": "When "
 });
 formatter.match({
@@ -223,7 +223,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User has to fill the fields like NameTin_Consultant,LoginIDGlobalVariable.userconsultant,PasswordGlobalVariable.passwordconsultant,ConfirmpasswordGlobalVariable.passwordconsultant,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeConsultant,RoleFunctional,Customer",
+  "name": "User has to fill the fields like NameHarry_Consultant,LoginIDGlobalVariable.userconsultant,PasswordGlobalVariable.passwordconsultant,ConfirmpasswordGlobalVariable.passwordconsultant,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeConsultant,RoleFunctional,Customer",
   "keyword": "When "
 });
 formatter.match({
@@ -273,7 +273,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User has to fill the fields like NameBin_Customer,LoginIDGlobalVariable.uc,PasswordGlobalVariable.pc,ConfirmpasswordGlobalVariable.pc,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeCustomer,RoleFunctional,CustomerTin Test",
+  "name": "User has to fill the fields like NameHarry_Customer,LoginIDGlobalVariable.uc,PasswordGlobalVariable.pc,ConfirmpasswordGlobalVariable.pc,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeCustomer,RoleFunctional,CustomerHarry Test",
   "keyword": "When "
 });
 formatter.match({

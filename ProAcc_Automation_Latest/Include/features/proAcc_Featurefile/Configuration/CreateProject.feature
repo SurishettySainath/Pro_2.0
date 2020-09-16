@@ -4,12 +4,12 @@
 # Last Updated By:
 # Last Updated On:
 # Feature Name: Project Creation
-# Feature Description: Creating new Project
+# Feature Description: CreaHarryg new Project
 #---------------------------------------------------------------------------------------------------------------------------------
 Feature: Project Creation
 
   @SmokeTest
-  Scenario Outline: Creating new Project
+  Scenario Outline: CreaHarryg new Project
     Given User is on Project Creation page
     When User has to enter project name<projectname>
     And User has to enter project description<description>
@@ -20,5 +20,5 @@ Feature: Project Creation
     Then User can search for created project in list<projectname>
 
     Examples: 
-      | projectname          | description        | customername | projectmanager | Scenario |
-      | Tin Pilot Phase Test | Pro acc Inprogress | Tin Test     | Tin_PM         | MERGE    |
+      | projectname            | description        | customername | projectmanager | Scenario |
+      | Harry Pilot Phase Test | Pro acc Inprogress | Harry Test   | Harry_PM       | MERGE    |

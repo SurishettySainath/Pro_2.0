@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.905969">
-<testcase classname="Project Creation" name="Creating new Project" time="23.905969">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="22.331163">
+<testcase classname="Project Creation" name="CreaHarryg new Project" time="22.331163">
 <system-out><![CDATA[Given User is on Project Creation page......................................passed
-When User has to enter project nameTin Pilot Phase Test.....................passed
+When User has to enter project nameHarry Pilot Phase Test...................passed
 And User has to enter project descriptionPro acc Inprogress.................passed
-And User has to select Customer name from dropdownTin Test..................passed
-And User has to select Project manager from dropdownTin_PM..................passed
+And User has to select Customer name from dropdownHarry Test................passed
+And User has to select Project manager from dropdownHarry_PM................passed
 And User has to select Scenario from dropdownMERGE..........................passed
 And User has to click create button for project creation....................passed
-Then User can search for created project in listTin Pilot Phase Test........passed
+Then User can search for created project in listHarry Pilot Phase Test......passed
 ]]></system-out>
 </testcase>
 </testsuite>

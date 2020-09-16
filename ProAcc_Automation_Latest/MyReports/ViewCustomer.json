@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6812451164,
+              "duration": 6547882049,
               "status": "passed"
             },
             "line": 13,
@@ -24,15 +24,15 @@
           },
           {
             "result": {
-              "duration": 6896392463,
+              "duration": 6530811438,
               "status": "passed"
             },
             "line": 14,
-            "name": "User can search for the customer in customer search boxTin Test",
+            "name": "User can search for the customer in customer search boxHarry Test",
             "match": {
               "arguments": [
                 {
-                  "val": "Tin Test",
+                  "val": "Harry Test",
                   "offset": 55
                 }
               ],
@@ -42,15 +42,15 @@
           },
           {
             "result": {
-              "duration": 1271784,
+              "duration": 708586310,
               "status": "passed"
             },
             "line": 15,
-            "name": "User can see the created customer in the listTin Test",
+            "name": "User can see the created customer in the listHarry Test",
             "match": {
               "arguments": [
                 {
-                  "val": "Tin Test",
+                  "val": "Harry Test",
                   "offset": 45
                 }
               ],

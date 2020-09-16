@@ -23,7 +23,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "name": "User has to write task name\u003cTaskName\u003e",
+  "name": "User has to write task name\u003cTaskName\u003eand est hrs\u003cEST\u003e",
   "keyword": "And "
 });
 formatter.step({
@@ -42,13 +42,15 @@ formatter.examples({
     {
       "cells": [
         "TaskCategory",
-        "TaskName"
+        "TaskName",
+        "EST"
       ]
     },
     {
       "cells": [
         "Plan Project",
-        "D011"
+        "D011",
+        "11:00"
       ]
     }
   ]
@@ -84,11 +86,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User has to write task nameD011",
+  "name": "User has to write task nameD011and est hrs11:00",
   "keyword": "And "
 });
 formatter.match({
-  "location": "PMTaskCreation_StepDef.user_has_to_write_task_name(String)"
+  "location": "PMTaskCreation_StepDef.user_has_to_write_task_name_and_est_hrs(String,String)"
 });
 formatter.result({
   "status": "passed"

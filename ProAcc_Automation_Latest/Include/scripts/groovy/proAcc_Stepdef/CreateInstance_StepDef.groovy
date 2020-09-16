@@ -122,12 +122,12 @@ class Addinstancetoproject {
 			WebUI.delay(3)
 			WebUI.click(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_CreateInstance/select_Project'))
 			WebUI.selectOptionByLabel(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_CreateInstance/select_Project'), projectinstancename,true)
-			loginfo.createNode(new GherkinKeyword("And"), "User has to select project from dropdown(.*)").pass("pass");
+			loginfo.createNode(new GherkinKeyword("And"), "User has to select project from dropdown").pass("pass");
 			Assert.assertTrue(true);
 			loginfo.assignCategory("Instance")
 
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User has to select project from dropdown(.*)").fail("fail").addScreenCaptureFromPath(new OnlineKeywords ().takeScreenshot(loginfo));
+			loginfo.createNode(new GherkinKeyword("And"), "User has to select project from dropdown").fail("fail").addScreenCaptureFromPath(new OnlineKeywords ().takeScreenshot(loginfo));
 
 
 		}

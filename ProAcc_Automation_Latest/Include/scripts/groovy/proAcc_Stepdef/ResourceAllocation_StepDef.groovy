@@ -1,4 +1,5 @@
 package proAcc_Stepdef
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -177,57 +178,37 @@ class ResourceAllocation_StepDef {
 
 			//						 if (rowCount_Upload_SMW_Site  > 0){
 			WebUI.delay(3)
-			for (int k=2;k<=rowCount_Upload_SMW_Site;k++) {
+			for (int k=1;k<=rowCount_Upload_SMW_Site-1;k++) {
 
+				//Edit Button
 
-				TestObject task = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//*[@id="jqGrid"]/tbody/tr['+k+']', true)
+				TestObject task1 = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//*[@id="jEditButton_'+k+'"]/span', true)
+
+				WebUI.delay(2)
+				println(task1)
+				WebUI.click(task1)
+
+				//Select user from drop down
 				WebUI.delay(2)
 
-				WebUI.click(task)
-				WebUI.delay(2)
+				TestObject task2 = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//*[@id="'+k+'_UserID"]', true)
 
-				//	WebUI.click(findTestObject('Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_task'))
-				WebUI.scrollToElement(findTestObject('Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task'), 0)
-				WebUI.delay(1)
-				WebUI.click(findTestObject('Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task'))
-				WebUI.delay(1)
-				WebUI.click(findTestObject('Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask'))
+				WebUI.selectOptionByLabel(task2, Owneroftask, true)
+				WebUI.delay(3)
 
-				//	WebUI.selectOptionByIndex(findTestObject('Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask'), 0)
-				WebUI.delay(1)
+				//Save Button
+				TestObject submit = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//*[@id="jSaveButton_'+k+'"]/span', true)
 
-				WebUI.selectOptionByLabel(findTestObject('Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask'), Owneroftask, true)
-				WebUI.delay(1)
-				WebUI.click(findTestObject('Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Submit'))
-				WebUI.delay(1)
-				WebUI.click(findTestObject('Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Yes'))
-				WebUI.delay(5)
+
+				WebUI.click(submit)
 
 			}
-
-
-			//			WebUI.delay(1)
-			//			WebUI.click(findTestObject('Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_task2'))
-			//			WebUI.scrollToElement(findTestObject('Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task'), 0)
-			//			WebUI.delay(1)
-			//			WebUI.click(findTestObject('Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/edit_task'))
-			//			WebUI.delay(1)
-			//			WebUI.click(findTestObject('Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask'))
-			//
-			//		//	WebUI.selectOptionByIndex(findTestObject('Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask'), 3)
-			//
-			//			WebUI.selectOptionByLabel(findTestObject('Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/select_NamedOwnerOfTask'), Owneroftask1, true)
-			//			WebUI.delay(1)
-			//			WebUI.click(findTestObject('Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Submit'))
-			//			WebUI.delay(1)
-			//			WebUI.click(findTestObject('Object Repository/Pro_Acc_Assessment/Pro_Acc_ResourceAllocation/a_Yes'))
-
 			loginfo.createNode(new GherkinKeyword("And"), "User should allocate owner for a particular task").pass("pass");
 			Assert.assertTrue(true);
 			loginfo.assignCategory("Resource Allocation")
 
 		} catch   (Exception e){
-			//	loginfo.createNode(new GherkinKeyword("And"), "User should allocate owner for a particular task").fail("fail").addScreenCaptureFromPath(new OnlineKeywords ().takeScreenshot(loginfo));
+			loginfo.createNode(new GherkinKeyword("And"), "User should allocate owner for a particular task").fail("fail").addScreenCaptureFromPath(new OnlineKeywords ().takeScreenshot(loginfo));
 		}
 	}
 

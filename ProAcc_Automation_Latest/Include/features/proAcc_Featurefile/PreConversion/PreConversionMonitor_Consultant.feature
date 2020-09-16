@@ -17,7 +17,7 @@ Feature: Pre-Conversion Monitor for Consultant
 
     Examples: 
       | username       | password |
-      | Tin_Consultant | a12345@  |
+      | Harry_Consultant | a12345@  |
 
   @SmokeTest
   Scenario Outline: Assessment Monitor functionality for Consultant
@@ -29,4 +29,4 @@ Feature: Pre-Conversion Monitor for Consultant
 
     Examples: 
       | CustomernameforAssessmentConsultant | ProjectnameforAssessmentConsultant | InstancenameforAssessmentConsultant | Phases         |
-      | Tin Test                            | Tin Pilot Phase Test               | T01                                 | Pre-Conversion |
+      | Harry Test                            | Harry Pilot Phase Test               | H01                                 | Pre-Conversion |

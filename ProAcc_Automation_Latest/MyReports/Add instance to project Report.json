@@ -4,16 +4,17 @@
     "elements": [
       {
         "line": 21,
-        "name": "Creating New Instance",
+        "name": "CreaHarryg New Instance",
         "description": "",
-        "id": "create-instance;creating-new-instance;;2",
+        "id": "create-instance;creaharryg-new-instance;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 4594639677,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException: Cannot invoke method createNode() on null object\r\n\tat org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)\r\n\tat proAcc_Stepdef.Addinstancetoproject.user_is_on_project_instance_configuration_page(CreateInstance_StepDef.groovy:98)\r\n\tat ✽.User is on create instance page(Include/features/proAcc_Featurefile/Configuration/CreateInstance.feature:13)\r\n",
+              "duration": 1158758689,
+              "status": "failed"
             },
             "line": 13,
             "name": "User is on create instance page",
@@ -24,15 +25,14 @@
           },
           {
             "result": {
-              "duration": 1544848673,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
-            "name": "User has to enter instance nameT01",
+            "name": "User has to enter instance nameS01",
             "match": {
               "arguments": [
                 {
-                  "val": "T01",
+                  "val": "S01",
                   "offset": 31
                 }
               ],
@@ -42,8 +42,7 @@
           },
           {
             "result": {
-              "duration": 4612277310,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "User has to select project from dropdownTin Pilot Phase Test",
@@ -60,8 +59,7 @@
           },
           {
             "result": {
-              "duration": 3443358098,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "User has to click on create button for create instance",
@@ -72,15 +70,14 @@
           },
           {
             "result": {
-              "duration": 3764104194,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
-            "name": "User can search for created instance in listT01",
+            "name": "User can search for created instance in listH01",
             "match": {
               "arguments": [
                 {
-                  "val": "T01",
+                  "val": "H01",
                   "offset": 44
                 }
               ],

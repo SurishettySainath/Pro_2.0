@@ -5,7 +5,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
-  "name": "Creating new Project",
+  "name": "CreaHarryg new Project",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
@@ -62,17 +62,17 @@ formatter.examples({
     },
     {
       "cells": [
-        "Tin Pilot Phase Test",
+        "Harry Pilot Phase Test",
         "Pro acc Inprogress",
-        "Tin Test",
-        "Tin_PM",
+        "Harry Test",
+        "Harry_PM",
         "MERGE"
       ]
     }
   ]
 });
 formatter.scenario({
-  "name": "Creating new Project",
+  "name": "CreaHarryg new Project",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
@@ -92,7 +92,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User has to enter project nameTin Pilot Phase Test",
+  "name": "User has to enter project nameHarry Pilot Phase Test",
   "keyword": "When "
 });
 formatter.match({
@@ -112,7 +112,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User has to select Customer name from dropdownTin Test",
+  "name": "User has to select Customer name from dropdownHarry Test",
   "keyword": "And "
 });
 formatter.match({
@@ -122,7 +122,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User has to select Project manager from dropdownTin_PM",
+  "name": "User has to select Project manager from dropdownHarry_PM",
   "keyword": "And "
 });
 formatter.match({
@@ -152,7 +152,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User can search for created project in listTin Pilot Phase Test",
+  "name": "User can search for created project in listHarry Pilot Phase Test",
   "keyword": "Then "
 });
 formatter.match({

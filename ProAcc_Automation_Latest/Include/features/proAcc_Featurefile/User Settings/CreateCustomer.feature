@@ -17,4 +17,4 @@ Feature: Create Customer and View Customer functionality
 
     Examples: 
       | Customername | Industrysector | ContactPersonName | emailid        | phone      |
-      | Tin Test     | Construction   | TinTest           | Test@gmail.com | 8994447890 |
+      | Harry Test   | Construction   | HarryTest         | Test@gmail.com | 8994447890 |

@@ -122,7 +122,7 @@ class Dashboard {
 		try{
 			WebUI.delay(8)
 
-		//	WebUI.scrollToElement(findTestObject('Object Repository/Pro_Acc_Dashboard/Element_scroll'), 4)
+			//	WebUI.scrollToElement(findTestObject('Object Repository/Pro_Acc_Dashboard/Element_scroll'), 4)
 			WebUI.delay(8)
 
 			WebUI.click(findTestObject('Object Repository/Pro_Acc_Logout/User_Click'))

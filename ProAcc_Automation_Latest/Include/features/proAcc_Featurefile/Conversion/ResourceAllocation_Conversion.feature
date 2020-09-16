@@ -17,7 +17,7 @@ Feature: Resource Allocation
 
     Examples: 
       | username | password |
-      | Tin_PM   | a12345@  |
+      | Harry_PM | a12345@  |
 
   @SmokeTest
   Scenario Outline: Resource Allocation functionality
@@ -29,4 +29,4 @@ Feature: Resource Allocation
 
     Examples: 
       | ProjectnameforResourceAllocation | InstancenameforResourceAllocation | Owneroftask | Phases     |
-      | Tin Pilot Phase Test             | T01                               | seena        | Conversion |
+      | Harry Pilot Phase Test           | H01                               | seena       | Conversion |

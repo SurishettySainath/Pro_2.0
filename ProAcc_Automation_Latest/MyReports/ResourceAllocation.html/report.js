@@ -43,7 +43,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "Tin_PM",
+        "Harry_PM",
         "a12345@"
       ]
     }
@@ -70,7 +70,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enters Tin_PM and a12345@",
+  "name": "User enters Harry_PM and a12345@",
   "keyword": "And "
 });
 formatter.match({
@@ -144,9 +144,9 @@ formatter.examples({
     },
     {
       "cells": [
-        "Tin Pilot Phase Test",
-        "T01",
-        "Tin_Consultant",
+        "Harry Pilot Phase Test",
+        "H01",
+        "Harry_Consultant",
         "Assessment"
       ]
     }
@@ -173,7 +173,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User has to select Project NameTin Pilot Phase Test and Instance NameT01 from the dropdown for Resource Allocation",
+  "name": "User has to select Project NameHarry Pilot Phase Test and Instance NameH01 from the dropdown for Resource Allocation",
   "keyword": "When "
 });
 formatter.match({
@@ -193,7 +193,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User should allocate ownerTin_Consultantfor a particular task",
+  "name": "User should allocate ownerHarry_Consultantfor a particular task",
   "keyword": "And "
 });
 formatter.match({

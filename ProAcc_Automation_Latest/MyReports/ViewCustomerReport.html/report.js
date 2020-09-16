@@ -38,7 +38,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "Tin Test"
+        "Harry Test"
       ]
     }
   ]
@@ -64,7 +64,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User can search for the customer in customer search boxTin Test",
+  "name": "User can search for the customer in customer search boxHarry Test",
   "keyword": "When "
 });
 formatter.match({
@@ -74,7 +74,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User can see the created customer in the listTin Test",
+  "name": "User can see the created customer in the listHarry Test",
   "keyword": "Then "
 });
 formatter.match({

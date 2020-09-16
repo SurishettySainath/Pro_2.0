@@ -17,7 +17,7 @@ Feature: Conversion Monitor for Consultant
 
     Examples: 
       | username | password |
-      | seena     | a12345@  |
+      | seena    | a12345@  |
 
   @SmokeTest
   Scenario Outline: Assessment Monitor functionality for Consultant
@@ -29,4 +29,4 @@ Feature: Conversion Monitor for Consultant
 
     Examples: 
       | CustomernameforAssessmentConsultant | ProjectnameforAssessmentConsultant | InstancenameforAssessmentConsultant | Phases     |
-      | Tin Test                            | Tin Pilot Phase Test               | T01                                 | Conversion |
+      | Harry Test                          | Harry Pilot Phase Test             | H01                                 | Conversion |

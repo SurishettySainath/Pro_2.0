@@ -16,8 +16,8 @@ Feature: Create User Functionality
     Then User should successfully created new user
 
     Examples: 
-      | Name           | LoginID                           | Password                              | Confirmpassword                       | Email              | Phonenumber | Usertype        | Role       | Customer |
-      | Tin_Admin      | GlobalVariable.useradmin          | GlobalVariable.passwordadmin          | GlobalVariable.passwordadmin          | Test@Promantus.com |  8976543210 | Admin           |            |          |
-      | Tin_PM         | GlobalVariable.userprojectmanager | GlobalVariable.passwordprojectmanager | GlobalVariable.passwordprojectmanager | Test@Promantus.com |  8976543210 | Project Manager |            |          |
-      | Tin_Consultant | GlobalVariable.userconsultant     | GlobalVariable.passwordconsultant     | GlobalVariable.passwordconsultant     | Test@Promantus.com |  8976543210 | Consultant      | Functional |          |
-      | Bin_Customer   | GlobalVariable.uc                 | GlobalVariable.pc                     | GlobalVariable.pc                     | Test@Promantus.com |  8976543210 | Customer        | Functional | Tin Test |
+      | Name             | LoginID                           | Password                              | Confirmpassword                       | Email              | Phonenumber | Usertype        | Role       | Customer   |
+      | Harry_Admin      | GlobalVariable.useradmin          | GlobalVariable.passwordadmin          | GlobalVariable.passwordadmin          | Test@Promantus.com |  8976543210 | Admin           |            |            |
+      | Harry_PM         | GlobalVariable.userprojectmanager | GlobalVariable.passwordprojectmanager | GlobalVariable.passwordprojectmanager | Test@Promantus.com |  8976543210 | Project Manager |            |            |
+      | Harry_Consultant | GlobalVariable.userconsultant     | GlobalVariable.passwordconsultant     | GlobalVariable.passwordconsultant     | Test@Promantus.com |  8976543210 | Consultant      | Functional |            |
+      | Harry_Customer   | GlobalVariable.uc                 | GlobalVariable.pc                     | GlobalVariable.pc                     | Test@Promantus.com |  8976543210 | Customer        | Functional | Harry Test |

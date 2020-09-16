@@ -1,6 +1,6 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Include/features/proAcc_Featurefile/PreConversion/PreConversionMonitor_Consultant.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Include/features/proAcc_Featurefile/Post_Conversion/PostConversionMonitor_Consultant.feature");
 formatter.feature({
-  "name": "Pre-Conversion Monitor for Consultant",
+  "name": "Post-Conversion functionality for ProAcc",
   "description": "",
   "keyword": "Feature"
 });
@@ -43,7 +43,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "Tin_Consultant",
+        "Harry_Consultant",
         "a12345@"
       ]
     }
@@ -70,7 +70,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enters Tin_Consultant and a12345@",
+  "name": "User enters Harry_Consultant and a12345@",
   "keyword": "And "
 });
 formatter.match({
@@ -144,10 +144,10 @@ formatter.examples({
     },
     {
       "cells": [
-        "Tin Test",
-        "Tin Pilot Phase Test",
-        "T01",
-        "Pre-Conversion"
+        "Harry Test",
+        "Harry Pilot Phase Test",
+        "H01",
+        "Post-Conversion"
       ]
     }
   ]
@@ -163,7 +163,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "User is on Consultant Monitor pagePre-Conversion",
+  "name": "User is on Consultant Monitor pagePost-Conversion",
   "keyword": "Given "
 });
 formatter.match({
@@ -173,7 +173,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User has to select Consultant CustomernameTin Test and Project NameTin Pilot Phase Test and Consultant Instance NameT01 from the dropdown for consultant Assessment Monitor",
+  "name": "User has to select Consultant CustomernameHarry Test and Project NameHarry Pilot Phase Test and Consultant Instance NameH01 from the dropdown for consultant Assessment Monitor",
   "keyword": "When "
 });
 formatter.match({

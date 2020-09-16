@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.970574">
-<testcase classname="Create Instance" name="Creating New Instance" time="17.970574">
-<system-out><![CDATA[Given User is on create instance page.......................................passed
-When User has to enter instance nameT01.....................................passed
-And User has to select project from dropdownTin Pilot Phase Test............passed
-And User has to click on create button for create instance..................passed
-Then User can search for created instance in listT01........................passed
-]]></system-out>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="1.165785">
+<testcase classname="Create Instance" name="CreaHarryg New Instance" time="1.165785">
+<failure message="java.lang.NullPointerException: Cannot invoke method createNode() on null object&#13;&#10;&#9;at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)&#13;&#10;&#9;at proAcc_Stepdef.Addinstancetoproject.user_is_on_project_instance_configuration_page(CreateInstance_StepDef.groovy:98)&#13;&#10;&#9;at ✽.User is on create instance page(Include/features/proAcc_Featurefile/Configuration/CreateInstance.feature:13)&#13;&#10;"><![CDATA[Given User is on create instance page.......................................failed
+When User has to enter instance nameS01.....................................skipped
+And User has to select project from dropdownTin Pilot Phase Test............skipped
+And User has to click on create button for create instance..................skipped
+Then User can search for created instance in listH01........................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke method createNode() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at proAcc_Stepdef.Addinstancetoproject.user_is_on_project_instance_configuration_page(CreateInstance_StepDef.groovy:98)
+	at ✽.User is on create instance page(Include/features/proAcc_Featurefile/Configuration/CreateInstance.feature:13)
+]]></failure>
 </testcase>
 </testsuite>

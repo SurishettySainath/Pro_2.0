@@ -16,8 +16,8 @@ Feature: Assessment Monitor for Consultant
     Then User will be logged in successfully
 
     Examples: 
-      | username       | password |
-      | Tin_Consultant | a12345@  |
+      | username         | password |
+      | Harry_Consultant | a12345@  |
 
   @SmokeTest
   Scenario Outline: Assessment Monitor functionality for Consultant
@@ -29,4 +29,4 @@ Feature: Assessment Monitor for Consultant
 
     Examples: 
       | CustomernameforAssessmentConsultant | ProjectnameforAssessmentConsultant | InstancenameforAssessmentConsultant | Phases     |
-      | Tin Test                            | Tin Pilot Phase Test               | T01                                 | Assessment |
+      | Harry Test                          | Harry Pilot Phase Test             | H01                                 | Assessment |

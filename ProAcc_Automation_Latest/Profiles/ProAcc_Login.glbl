@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bin_Customer'</initValue>
+      <initValue>'Harry_Customer'</initValue>
       <name>uc</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Tin_PM'</initValue>
+      <initValue>'Harry_PM'</initValue>
       <name>userprojectmanager</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -41,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Tin_Consultant'</initValue>
+      <initValue>'Harry_Consultant'</initValue>
       <name>userconsultant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Tin_Admin'</initValue>
+      <initValue>'Harry_Admin'</initValue>
       <name>useradmin</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -61,7 +61,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Tin Test'</initValue>
+      <initValue>'Harry Test'</initValue>
       <name>Customer</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

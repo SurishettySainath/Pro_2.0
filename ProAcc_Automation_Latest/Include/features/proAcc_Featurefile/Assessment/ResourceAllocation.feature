@@ -17,7 +17,7 @@ Feature: Resource Allocation
 
     Examples: 
       | username | password |
-      | Tin_PM   | a12345@  |
+      | Harry_PM | a12345@  |
 
   @SmokeTest
   Scenario Outline: Resource Allocation functionality
@@ -28,5 +28,5 @@ Feature: Resource Allocation
     Then User should select instance successfully for Resource Allocation
 
     Examples: 
-      | ProjectnameforResourceAllocation | InstancenameforResourceAllocation | Owneroftask    | Phases     |
-      | Tin Pilot Phase Test             | T01                               | Tin_Consultant | Assessment |
+      | ProjectnameforResourceAllocation | InstancenameforResourceAllocation | Owneroftask      | Phases     |
+      | Harry Pilot Phase Test           | H01                               | Harry_Consultant | Assessment |

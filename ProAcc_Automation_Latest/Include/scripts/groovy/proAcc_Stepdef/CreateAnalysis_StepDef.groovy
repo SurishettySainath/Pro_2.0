@@ -195,21 +195,21 @@ class CreateAnalysisStepDef {
 		}
 	}
 
-	@Then("User should start analysis successfully")
-	public void user_should_start_analysis_successfully() {
+	@Then("User should successfully navigate to readinesscheck")
+	public void User_should_successfully_navigate_to_readinesscheck() {
 		try{
-			WebUI.delay(3)
+			WebUI.delay(5)
 			WebUI.click(findTestObject('Object Repository/Pro_Acc_Assessment/Pro_Acc_CreateAnalysis/Report_Btn'))
 
 			WebUI.click(findTestObject('Object Repository/Pro_Acc_Logout/User_Click'))
 
 			WebUI.click(findTestObject('Object Repository/Pro_Acc_Logout/Logout'))
-			loginfo.createNode(new GherkinKeyword("When"), "User should start analysis successfully").pass("pass");
+			loginfo.createNode(new GherkinKeyword("Then"), "User should successfully navigate to readinesscheck").pass("pass");
 			Assert.assertTrue(true);
 			loginfo.assignCategory("Create Analysis")
 
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("When"), "User should start analysis successfully").fail("fail").addScreenCaptureFromPath(new OnlineKeywords ().takeScreenshot(loginfo));
+			loginfo.createNode(new GherkinKeyword("Then"), "User should successfully navigate to readinesscheck").fail("fail").addScreenCaptureFromPath(new OnlineKeywords ().takeScreenshot(loginfo));
 		}
 		//WebUI.verifyElementPresent(findTestObject('Object Repository/Assessment/CreateAnalysis/button_Start Analysis'), 3)
 		//WebUI.delay(2)

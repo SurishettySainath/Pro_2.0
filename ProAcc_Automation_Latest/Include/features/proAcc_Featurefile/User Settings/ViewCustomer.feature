@@ -16,4 +16,4 @@ Feature: View Customer functionality
 
     Examples: 
       | Customer_search |
-      | Tin Test      |
+      | Harry Test        |

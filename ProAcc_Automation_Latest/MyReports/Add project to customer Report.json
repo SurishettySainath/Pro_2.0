@@ -4,15 +4,15 @@
     "elements": [
       {
         "line": 24,
-        "name": "Creating new Project",
+        "name": "CreaHarryg new Project",
         "description": "",
-        "id": "project-creation;creating-new-project;;2",
+        "id": "project-creation;creaharryg-new-project;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 5430146273,
+              "duration": 5345447495,
               "status": "passed"
             },
             "line": 13,
@@ -24,15 +24,15 @@
           },
           {
             "result": {
-              "duration": 3550561437,
+              "duration": 2564784876,
               "status": "passed"
             },
             "line": 14,
-            "name": "User has to enter project nameTin Pilot Phase Test",
+            "name": "User has to enter project nameHarry Pilot Phase Test",
             "match": {
               "arguments": [
                 {
-                  "val": "Tin Pilot Phase Test",
+                  "val": "Harry Pilot Phase Test",
                   "offset": 30
                 }
               ],
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 1007924775,
+              "duration": 1109341156,
               "status": "passed"
             },
             "line": 15,
@@ -60,15 +60,15 @@
           },
           {
             "result": {
-              "duration": 1635289456,
+              "duration": 1278721063,
               "status": "passed"
             },
             "line": 16,
-            "name": "User has to select Customer name from dropdownTin Test",
+            "name": "User has to select Customer name from dropdownHarry Test",
             "match": {
               "arguments": [
                 {
-                  "val": "Tin Test",
+                  "val": "Harry Test",
                   "offset": 46
                 }
               ],
@@ -78,15 +78,15 @@
           },
           {
             "result": {
-              "duration": 1420952838,
+              "duration": 1453256290,
               "status": "passed"
             },
             "line": 17,
-            "name": "User has to select Project manager from dropdownTin_PM",
+            "name": "User has to select Project manager from dropdownHarry_PM",
             "match": {
               "arguments": [
                 {
-                  "val": "Tin_PM",
+                  "val": "Harry_PM",
                   "offset": 48
                 }
               ],
@@ -96,7 +96,7 @@
           },
           {
             "result": {
-              "duration": 1422385714,
+              "duration": 1317214387,
               "status": "passed"
             },
             "line": 18,
@@ -114,7 +114,7 @@
           },
           {
             "result": {
-              "duration": 5442872589,
+              "duration": 5387794480,
               "status": "passed"
             },
             "line": 19,
@@ -126,15 +126,15 @@
           },
           {
             "result": {
-              "duration": 3988136712,
+              "duration": 3866476185,
               "status": "passed"
             },
             "line": 20,
-            "name": "User can search for created project in listTin Pilot Phase Test",
+            "name": "User can search for created project in listHarry Pilot Phase Test",
             "match": {
               "arguments": [
                 {
-                  "val": "Tin Pilot Phase Test",
+                  "val": "Harry Pilot Phase Test",
                   "offset": 43
                 }
               ],

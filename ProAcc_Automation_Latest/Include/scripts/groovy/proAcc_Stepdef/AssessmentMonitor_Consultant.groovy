@@ -138,7 +138,7 @@ class AssessmentMonitor_Consultant {
 
 			loginfo.createNode(new GherkinKeyword("Given"), "User is on Monitor page for Consultant").pass("pass");
 			Assert.assertTrue(true);
-			loginfo.assignCategory("Assessment Monitor for Consultant")
+			loginfo.assignCategory("Consultant Monitor")
 
 		} catch   (Exception e){
 			loginfo.createNode(new GherkinKeyword("Given"), "User is on Monitor page for Consultant").fail("fail").addScreenCaptureFromPath(new OnlineKeywords ().takeScreenshot(loginfo));
@@ -163,7 +163,7 @@ class AssessmentMonitor_Consultant {
 
 			loginfo.createNode(new GherkinKeyword("When"), "User has to select Consultant Project Name and Consultant Instance Name from the dropdown for consultant Assessment Monitor").pass("pass");
 			Assert.assertTrue(true);
-			loginfo.assignCategory("Assessment Monitor for Consultant")
+			loginfo.assignCategory("Consultant Monitor")
 
 		} catch (Exception e){
 			loginfo.createNode(new GherkinKeyword("When"), "User has to select Consultant Project Name and Consultant Instance Name from the dropdown for consultant Assessment Monitor").fail("fail").addScreenCaptureFromPath(new OnlineKeywords ().takeScreenshot(loginfo));
@@ -179,7 +179,7 @@ class AssessmentMonitor_Consultant {
 
 			loginfo.createNode(new GherkinKeyword("And"), "User has to click on select instance button for Consultant Assessment Monitor").pass("pass");
 			Assert.assertTrue(true);
-			loginfo.assignCategory("Assessment Monitor for Consultant")
+			loginfo.assignCategory("Consultant Monitor")
 
 		} catch   (Exception e){
 			loginfo.createNode(new GherkinKeyword("And"), "User has to click on select instance button for Consultant Assessment Monitor").fail("fail").addScreenCaptureFromPath(new OnlineKeywords ().takeScreenshot(loginfo));
@@ -213,10 +213,6 @@ class AssessmentMonitor_Consultant {
 
 			for (int k=1;k<=rowCount_Upload_SMW_Site-1;k++) {
 
-				//								TestObject task = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//*[@id="jqGrid"]/tbody/tr['+k+']', true)
-				//								WebUI.delay(5)
-				//
-				//								WebUI.click(task)
 				WebUI.delay(2)
 				//	k=k-1;
 
@@ -226,18 +222,13 @@ class AssessmentMonitor_Consultant {
 
 				((JavascriptExecutor) DriverFactory.getWebDriver()).executeScript("document.getElementById('jEditButton_"+k+"').click()")
 
-				//	//	new OnlineKeywords ().Assessment_monitor(findTestObject('Object Repository/Pro_Acc_AssessmentMonitorforConsultant/Page_Assessment Monitor/Edit_Button'))
-
 				println("Start Date")
 				//planed start date
 				WebUI.delay(2)
 
-
 				((JavascriptExecutor) DriverFactory.getWebDriver()).executeScript("document.getElementById('"+k+"_Actual_St_Date').value='10/07/2020'")
 				WebUI.delay(3)
 				println("Test value")
-
-
 
 				//planed end date
 				((JavascriptExecutor) DriverFactory.getWebDriver()).executeScript("document.getElementById('"+k+"_Actual_En_Date').value='10/07/2020'")
@@ -245,16 +236,16 @@ class AssessmentMonitor_Consultant {
 				WebUI.delay(1)
 				((JavascriptExecutor) DriverFactory.getWebDriver()).executeScript("document.getElementById('"+k+"_StatusId').value='1'")
 				//estimated hrs
-				((JavascriptExecutor) DriverFactory.getWebDriver()).executeScript("document.getElementById('"+k+"_Actual_St_hours').value='11'")
+				//	((JavascriptExecutor) DriverFactory.getWebDriver()).executeScript("document.getElementById('"+k+"_Actual_St_hours').value='11:32'")
 				//comments
-				WebUI.delay(1)
+				WebUI.delay(3)
 
 				WebDriver driver = DriverFactory.getWebDriver()
 				JavascriptExecutor executor = ((driver) as JavascriptExecutor)
 
 				executor.executeScript("document.getElementById('"+k+"_Notes').value='Consultant Done'");
 				//Save button
-				WebUI.delay(1)
+				WebUI.delay(2)
 				((JavascriptExecutor) DriverFactory.getWebDriver()).executeScript("document.getElementById('jSaveButton_"+k+"').click()")
 
 				//	k+=1;
@@ -265,7 +256,7 @@ class AssessmentMonitor_Consultant {
 			}
 			loginfo.createNode(new GherkinKeyword("Then"), "User has to edit task for Assessment Monitor Consultant").pass("pass");
 			Assert.assertTrue(true);
-			loginfo.assignCategory("Assessment Monitor for Consultant")
+			loginfo.assignCategory("Consultant Monitor")
 
 		} catch   (Exception e){
 			loginfo.createNode(new GherkinKeyword("Then"), "User has to edit task for Assessment Monitor for Consultant").fail("fail").addScreenCaptureFromPath(new OnlineKeywords ().takeScreenshot(loginfo));
@@ -291,7 +282,7 @@ class AssessmentMonitor_Consultant {
 
 			loginfo.createNode(new GherkinKeyword("Then"), "User should select instance successfully for Assessment Monitor Consultant").pass("pass");
 			Assert.assertTrue(true);
-			loginfo.assignCategory("Assessment Monitor for Consultant")
+			loginfo.assignCategory("Consultant Monitor")
 
 		} catch   (Exception e){
 			loginfo.createNode(new GherkinKeyword("Then"), "User should select instance successfully for Assessment Monitor for Consultant").fail("fail").addScreenCaptureFromPath(new OnlineKeywords ().takeScreenshot(loginfo));

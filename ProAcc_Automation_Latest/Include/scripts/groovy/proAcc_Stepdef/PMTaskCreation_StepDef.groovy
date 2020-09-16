@@ -84,7 +84,7 @@ class PMTaskCreation_StepDef {
 	public void user_is_on_PM_Task_Creation_page() {
 		try{
 			WebUI.delay(5)
-			//	WebUI.click(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_CreateProject/a_Configuration'))
+			WebUI.click(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_CreateProject/a_Configuration'))
 			//	WebUI.delay(2)
 			WebUI.click(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_PMTaskCreation/click_PMTask'))
 			loginfo= extent.createTest(Feature.class,"PMTaskCreation");
@@ -123,13 +123,14 @@ class PMTaskCreation_StepDef {
 
 	}
 
-	@When("User has to write task name(.*)")
-	public void user_has_to_write_task_name(String TaskName) {
+	@When("User has to write task name(.*)and est hrs(.*)")
+	public void user_has_to_write_task_name_and_est_hrs(String TaskName,String EST) {
 		try{
 			WebUI.delay(2)
 			WebUI.setText(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_PMTaskCreation/set_taskname'), TaskName)
 			WebUI.delay(2)
-
+			WebUI.setText(findTestObject('Object Repository/Pro_Acc_Configuration/Pro_Acc_PMTaskCreation/Est hrs'), EST)
+			
 			loginfo.createNode(new GherkinKeyword("Given"), "User has to write task name").pass("pass");
 			Assert.assertTrue(true);
 			loginfo.assignCategory("PMTaskCreation")

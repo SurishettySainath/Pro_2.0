@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 24721374936,
+              "duration": 24212484148,
               "status": "passed"
             },
             "line": 13,
@@ -24,48 +24,48 @@
           },
           {
             "result": {
-              "duration": 21129035626,
+              "duration": 20857383313,
               "status": "passed"
             },
             "line": 14,
-            "name": "User has to fill the fields like NameTin_Admin,LoginIDGlobalVariable.useradmin,PasswordGlobalVariable.passwordadmin,ConfirmpasswordGlobalVariable.passwordadmin,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeAdmin,Role,Customer",
+            "name": "User has to fill the fields like NameHarry_Admin,LoginIDGlobalVariable.useradmin,PasswordGlobalVariable.passwordadmin,ConfirmpasswordGlobalVariable.passwordadmin,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeAdmin,Role,Customer",
             "match": {
               "arguments": [
                 {
-                  "val": "Tin_Admin",
+                  "val": "Harry_Admin",
                   "offset": 37
                 },
                 {
                   "val": "GlobalVariable.useradmin",
-                  "offset": 54
+                  "offset": 56
                 },
                 {
                   "val": "GlobalVariable.passwordadmin",
-                  "offset": 87
+                  "offset": 89
                 },
                 {
                   "val": "GlobalVariable.passwordadmin",
-                  "offset": 131
+                  "offset": 133
                 },
                 {
                   "val": "Test@Promantus.com",
-                  "offset": 165
+                  "offset": 167
                 },
                 {
                   "val": "8976543210",
-                  "offset": 195
+                  "offset": 197
                 },
                 {
                   "val": "Admin",
-                  "offset": 214
+                  "offset": 216
                 },
                 {
                   "val": "",
-                  "offset": 224
+                  "offset": 226
                 },
                 {
                   "val": "",
-                  "offset": 233
+                  "offset": 235
                 }
               ],
               "location": "CreateUser_StepDef.user_has_to_fill_the_fields_like(String,String,String,String,String,String,String,String,String)"
@@ -74,7 +74,7 @@
           },
           {
             "result": {
-              "duration": 7287208488,
+              "duration": 6150252166,
               "status": "passed"
             },
             "line": 15,
@@ -86,7 +86,7 @@
           },
           {
             "result": {
-              "duration": 750129,
+              "duration": 1374841,
               "status": "passed"
             },
             "line": 16,
@@ -113,7 +113,7 @@
         "steps": [
           {
             "result": {
-              "duration": 25000145475,
+              "duration": 24460911849,
               "status": "passed"
             },
             "line": 13,
@@ -125,48 +125,48 @@
           },
           {
             "result": {
-              "duration": 21011616963,
+              "duration": 20546618319,
               "status": "passed"
             },
             "line": 14,
-            "name": "User has to fill the fields like NameTin_PM,LoginIDGlobalVariable.userprojectmanager,PasswordGlobalVariable.passwordprojectmanager,ConfirmpasswordGlobalVariable.passwordprojectmanager,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeProject Manager,Role,Customer",
+            "name": "User has to fill the fields like NameHarry_PM,LoginIDGlobalVariable.userprojectmanager,PasswordGlobalVariable.passwordprojectmanager,ConfirmpasswordGlobalVariable.passwordprojectmanager,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeProject Manager,Role,Customer",
             "match": {
               "arguments": [
                 {
-                  "val": "Tin_PM",
+                  "val": "Harry_PM",
                   "offset": 37
                 },
                 {
                   "val": "GlobalVariable.userprojectmanager",
-                  "offset": 51
+                  "offset": 53
                 },
                 {
                   "val": "GlobalVariable.passwordprojectmanager",
-                  "offset": 93
+                  "offset": 95
                 },
                 {
                   "val": "GlobalVariable.passwordprojectmanager",
-                  "offset": 146
+                  "offset": 148
                 },
                 {
                   "val": "Test@Promantus.com",
-                  "offset": 189
+                  "offset": 191
                 },
                 {
                   "val": "8976543210",
-                  "offset": 219
+                  "offset": 221
                 },
                 {
                   "val": "Project Manager",
-                  "offset": 238
+                  "offset": 240
                 },
                 {
                   "val": "",
-                  "offset": 258
+                  "offset": 260
                 },
                 {
                   "val": "",
-                  "offset": 267
+                  "offset": 269
                 }
               ],
               "location": "CreateUser_StepDef.user_has_to_fill_the_fields_like(String,String,String,String,String,String,String,String,String)"
@@ -175,7 +175,7 @@
           },
           {
             "result": {
-              "duration": 8145195313,
+              "duration": 6057012405,
               "status": "passed"
             },
             "line": 15,
@@ -187,7 +187,7 @@
           },
           {
             "result": {
-              "duration": 916577,
+              "duration": 1214198,
               "status": "passed"
             },
             "line": 16,
@@ -214,7 +214,7 @@
         "steps": [
           {
             "result": {
-              "duration": 24315947678,
+              "duration": 24139785345,
               "status": "passed"
             },
             "line": 13,
@@ -226,48 +226,48 @@
           },
           {
             "result": {
-              "duration": 22752518912,
+              "duration": 22316636962,
               "status": "passed"
             },
             "line": 14,
-            "name": "User has to fill the fields like NameTin_Consultant,LoginIDGlobalVariable.userconsultant,PasswordGlobalVariable.passwordconsultant,ConfirmpasswordGlobalVariable.passwordconsultant,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeConsultant,RoleFunctional,Customer",
+            "name": "User has to fill the fields like NameHarry_Consultant,LoginIDGlobalVariable.userconsultant,PasswordGlobalVariable.passwordconsultant,ConfirmpasswordGlobalVariable.passwordconsultant,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeConsultant,RoleFunctional,Customer",
             "match": {
               "arguments": [
                 {
-                  "val": "Tin_Consultant",
+                  "val": "Harry_Consultant",
                   "offset": 37
                 },
                 {
                   "val": "GlobalVariable.userconsultant",
-                  "offset": 59
+                  "offset": 61
                 },
                 {
                   "val": "GlobalVariable.passwordconsultant",
-                  "offset": 97
+                  "offset": 99
                 },
                 {
                   "val": "GlobalVariable.passwordconsultant",
-                  "offset": 146
+                  "offset": 148
                 },
                 {
                   "val": "Test@Promantus.com",
-                  "offset": 185
+                  "offset": 187
                 },
                 {
                   "val": "8976543210",
-                  "offset": 215
+                  "offset": 217
                 },
                 {
                   "val": "Consultant",
-                  "offset": 234
+                  "offset": 236
                 },
                 {
                   "val": "Functional",
-                  "offset": 249
+                  "offset": 251
                 },
                 {
                   "val": "",
-                  "offset": 268
+                  "offset": 270
                 }
               ],
               "location": "CreateUser_StepDef.user_has_to_fill_the_fields_like(String,String,String,String,String,String,String,String,String)"
@@ -276,7 +276,7 @@
           },
           {
             "result": {
-              "duration": 8258170318,
+              "duration": 6102496401,
               "status": "passed"
             },
             "line": 15,
@@ -288,7 +288,7 @@
           },
           {
             "result": {
-              "duration": 678285,
+              "duration": 1468104,
               "status": "passed"
             },
             "line": 16,
@@ -315,7 +315,7 @@
         "steps": [
           {
             "result": {
-              "duration": 24550927800,
+              "duration": 24097980978,
               "status": "passed"
             },
             "line": 13,
@@ -327,48 +327,48 @@
           },
           {
             "result": {
-              "duration": 24246850550,
+              "duration": 23055715208,
               "status": "passed"
             },
             "line": 14,
-            "name": "User has to fill the fields like NameBin_Customer,LoginIDGlobalVariable.uc,PasswordGlobalVariable.pc,ConfirmpasswordGlobalVariable.pc,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeCustomer,RoleFunctional,CustomerTin Test",
+            "name": "User has to fill the fields like NameHarry_Customer,LoginIDGlobalVariable.uc,PasswordGlobalVariable.pc,ConfirmpasswordGlobalVariable.pc,EmailTest@Promantus.com,Phonenumber8976543210,UsertypeCustomer,RoleFunctional,CustomerHarry Test",
             "match": {
               "arguments": [
                 {
-                  "val": "Bin_Customer",
+                  "val": "Harry_Customer",
                   "offset": 37
                 },
                 {
                   "val": "GlobalVariable.uc",
-                  "offset": 57
+                  "offset": 59
                 },
                 {
                   "val": "GlobalVariable.pc",
-                  "offset": 83
+                  "offset": 85
                 },
                 {
                   "val": "GlobalVariable.pc",
-                  "offset": 116
+                  "offset": 118
                 },
                 {
                   "val": "Test@Promantus.com",
-                  "offset": 139
+                  "offset": 141
                 },
                 {
                   "val": "8976543210",
-                  "offset": 169
+                  "offset": 171
                 },
                 {
                   "val": "Customer",
-                  "offset": 188
+                  "offset": 190
                 },
                 {
                   "val": "Functional",
-                  "offset": 201
+                  "offset": 203
                 },
                 {
-                  "val": "Tin Test",
-                  "offset": 220
+                  "val": "Harry Test",
+                  "offset": 222
                 }
               ],
               "location": "CreateUser_StepDef.user_has_to_fill_the_fields_like(String,String,String,String,String,String,String,String,String)"
@@ -377,7 +377,7 @@
           },
           {
             "result": {
-              "duration": 7367100159,
+              "duration": 4184541536,
               "status": "passed"
             },
             "line": 15,
@@ -389,7 +389,7 @@
           },
           {
             "result": {
-              "duration": 767087,
+              "duration": 1548425,
               "status": "passed"
             },
             "line": 16,
